@@ -1,0 +1,80 @@
+
+@startuml
+
+' used in https://www.planttext.com/
+
+
+package "Core Components" {
+
+    class ResearchSummary {
+        + Description
+        + Organism
+        + Phylogenetic_conservation
+        + Experimental_approach
+        + Evidence
+        + Confidence_score
+        + Reference
+    }
+    enum EvidenceType {
+        EXPERIMENTAL
+        OBSERVATIONAL
+        CORRELATIVE
+        ANECDOTAL
+        META_ANALYTIC
+        EXPERT_OPINION
+        THEORETICAL
+    }
+
+
+    enum EvidenceStrength {
+        DEFINITIVE
+        STRONG
+        SUGGESTIVE
+        WEAK
+        SPECULATIVE
+    }
+}
+
+package "Gene Roles" {
+    class StressResponse {
+        + Stress
+    }
+
+    class NutrientUptake {
+        + Nutrient
+    }
+
+    class NutrientExudation {
+        + Nutrient
+    }
+
+    class BacterialInteraction {
+        + Interaction_type
+        + Coculture_role
+        + Involved_bacteria
+    }
+}
+
+package "Main Gene Entry" {
+    class GeneEntryResearch {
+        + Gene
+        + Function
+        + Physiological_contribution
+    }
+}
+
+' Relationships
+ResearchSummary "1" -- "1" EvidenceType 
+ResearchSummary "1" -- "1" EvidenceStrength 
+
+StressResponse "1" -- "*" ResearchSummary 
+NutrientUptake "1" -- "*" ResearchSummary 
+NutrientExudation "1" -- "*" ResearchSummary 
+BacterialInteraction "1" -- "*" ResearchSummary 
+
+GeneEntryResearch "1" -- "*" StressResponse 
+GeneEntryResearch "1" -- "*" NutrientUptake 
+GeneEntryResearch "1" -- "*" NutrientExudation 
+GeneEntryResearch "1" -- "*" BacterialInteraction 
+
+@enduml
