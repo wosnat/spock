@@ -105,3 +105,37 @@ class GeneResearchEntry(BaseModel):
     nutrient_exudation: list[NutrientExudation] = Field(description="List of nutrient exudation processes associated with this gene, can be empty if none found")
     role_in_coculture: list[RoleInCoculture] = Field(description="List of coculture processes associated with this gene, can be empty if none found")
 
+
+
+
+
+#############################
+# simple versions
+
+
+class ResearchFindingSimple(BaseModel):
+    """ Description of the research process and findings related to a specific finding on a specific gene"""
+    finding_category: str = Field(description="Category of the finding, e.g. 'physiological', 'gene function', 'stress response', 'nutrient uptake', 'nutrient exudation', 'coculture role'")
+    finding_sub_category: str = Field(description="sub category of the finding, e.g. 'high light stress' for stress response, nutrient name/type for nutrient exchange")
+    finding_description: str = Field(description="Description of the finding related to the gene")
+    finding_evidence: str = Field(description="Evidence supporting this finding, e.g. 'gene knockout experiments', 'gene expression analysis', 'protein interaction studies'")
+    finding_type: str = Field(description="Type of finding, e.g. 'gene function', 'stress response', 'nutrient uptake', 'nutrient exudation', 'coculture role'")
+    url: str = Field(description="URL to access the research paper supporting this finding")
+    title: str = Field(description="Title of the research paper supporting this finding")
+    citation: str = Field(description="Citation for the research paper supporting this finding")
+    organism: str = Field(description="Organism where the finding is studied in the cited literature")
+    phylogenetic_distance: str = Field(description="Phylogenetic distance between this research and Prochlorococcus")
+    additional_notes: str = Field(description="Any additional notes or comments about the finding")
+    confidence_score: Optional[int] = Field(
+        le=10, ge=1,  # Confidence score must be between 1 and 10
+        default=None, description="A numerical score representing the confidence in the evidence, from 1 to 10"
+    )
+
+
+
+class GeneResearchSummarySimple(BaseModel):
+    """Research on a specific gene's involvement in coping with stress conditions"""  
+    gene_name: str = Field(description="Name of the gene being studied")
+    gene_function: str = Field(description="Function of the gene") 
+    research_findings: List[ResearchFindingSimple] = Field(description="List of research findings related to this gene, can be empty if none found")
+
