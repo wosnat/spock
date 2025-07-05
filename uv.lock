@@ -873,6 +873,12 @@ wheels = [
 ]
 
 [[package]]
+name = "gffpandas"
+version = "1.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/fc/f8/6e14bb6bd8103e41082f83c82cefefe42ce3a5904d883193f39dadae4b07/gffpandas-1.2.0.tar.gz", hash = "sha256:1a1e1c5c5120bf46ec57517222ebb42ffaab3f768c972fec54c4ac1b07b7f0c6", size = 178778, upload-time = "2019-03-13T15:13:51.235Z" }
+
+[[package]]
 name = "google-crc32c"
 version = "1.7.1"
 source = { registry = "https://pypi.org/simple" }
@@ -3611,6 +3617,7 @@ dependencies = [
     { name = "filelock" },
     { name = "frozenlist" },
     { name = "fsspec" },
+    { name = "gffpandas" },
     { name = "google-crc32c" },
     { name = "gradio" },
     { name = "gradio-client" },
@@ -3825,6 +3832,7 @@ requires-dist = [
     { name = "filelock", specifier = "==3.18.0" },
     { name = "frozenlist", specifier = "==1.7.0" },
     { name = "fsspec", specifier = "==2025.5.1" },
+    { name = "gffpandas", specifier = ">=1.2.0" },
     { name = "google-crc32c", specifier = "==1.7.1" },
     { name = "gradio", specifier = "==5.33.1" },
     { name = "gradio-client", specifier = "==1.10.3" },

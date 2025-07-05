@@ -1,0 +1,505 @@
+locus_tag,product,protein_id,pseudo,Name_gene,gene_gene,gene_biotype,old_locus_tag
+TX50_RS00020,DNA polymerase III subunit beta,WP_011131639.1,,dnaN,dnaN,protein_coding,PMM0001
+TX50_RS00030,phosphoribosylformylglycinamidine synthase subunit PurL,WP_011131641.1,,purL,purL,protein_coding,PMM0003
+TX50_RS00035,amidophosphoribosyltransferase,WP_011131642.1,,purF,purF,protein_coding,PMM0004
+TX50_RS00050,tRNA epoxyqueuosine(34) reductase QueG,WP_011131645.1,,queG,queG,protein_coding,PMM0007
+TX50_RS00060,transcription antitermination factor NusB,WP_036930720.1,,nusB,nusB,protein_coding,PMM0009
+TX50_RS00065,signal recognition particle-docking protein FtsY,WP_011131648.1,,ftsY,ftsY,protein_coding,PMM0010
+TX50_RS00075,argininosuccinate lyase,WP_011131650.1,,argH,argH,protein_coding,PMM0012
+TX50_RS00085,tRNA dihydrouridine(20/20a) synthase DusA,WP_011131652.1,,dusA,dusA,protein_coding,PMM0014
+TX50_RS00090,peptide-methionine (R)-S-oxide reductase MsrB,WP_011131653.1,,msrB,msrB,protein_coding,PMM0015
+TX50_RS00095,nucleotide exchange factor GrpE,WP_011131654.1,,grpE,grpE,protein_coding,PMM0016
+TX50_RS00100,molecular chaperone DnaJ,WP_011131655.1,,dnaJ,dnaJ,protein_coding,PMM0017
+TX50_RS00110,ribosome small subunit-dependent GTPase A,WP_011131657.1,,rsgA,rsgA,protein_coding,PMM0019
+TX50_RS00120,UDP-N-acetylmuramate dehydrogenase,WP_011131659.1,,murB,murB,protein_coding,PMM0021
+TX50_RS00125,UDP-N-acetylmuramate--L-alanine ligase,WP_011131660.1,,murC,murC,protein_coding,PMM0022
+TX50_RS00130,type I glyceraldehyde-3-phosphate dehydrogenase,WP_011131661.1,,gap,gap,protein_coding,PMM0023
+TX50_RS00145,elongation factor P,WP_011131664.1,,efp,efp,protein_coding,PMM0026
+TX50_RS00150,acetyl-CoA carboxylase biotin carboxyl carrier protein,WP_011131665.1,,accB,accB,protein_coding,PMM0027
+TX50_RS00155,4-hydroxythreonine-4-phosphate dehydrogenase PdxA,WP_011131666.1,,pdxA,pdxA,protein_coding,PMM0028
+TX50_RS00195,cobalt-precorrin-5B (C(1))-methyltransferase CbiD,WP_011131674.1,,cbiD,cbiD,protein_coding,PMM0036
+TX50_RS00200,glutamine-hydrolyzing GMP synthase,WP_011131675.1,,guaA,guaA,protein_coding,PMM0037
+TX50_RS00215,penicillin-binding protein 2,WP_011131678.1,,mrdA,mrdA,protein_coding,PMM0040
+TX50_RS00235,alanine--tRNA ligase,WP_011131682.1,,alaS,alaS,protein_coding,PMM0044
+TX50_RS00240,biosynthetic arginine decarboxylase,WP_011131683.1,,speA,speA,protein_coding,PMM0045
+TX50_RS00245,nucleoside-diphosphate kinase,WP_011131684.1,,ndk,ndk,protein_coding,PMM0046
+TX50_RS00250,glycine oxidase ThiO,WP_011131685.1,,thiO,thiO,protein_coding,PMM0047
+TX50_RS00255,Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB,WP_011131686.1,,gatB,gatB,protein_coding,PMM0048
+TX50_RS00260,dephospho-CoA kinase,WP_011131687.1,,coaE,coaE,protein_coding,PMM0049
+TX50_RS00265,bifunctional glutamate N-acetyltransferase/amino-acid acetyltransferase ArgJ,WP_036930400.1,,argJ,argJ,protein_coding,PMM0050
+TX50_RS00300,chromosome segregation protein SMC,WP_036930396.1,,smc,smc,protein_coding,PMM0057
+TX50_RS00320,acetyl-CoA carboxylase biotin carboxylase subunit,WP_011131698.1,,accC,accC,protein_coding,PMM0060
+TX50_RS00360,peptide deformylase,WP_011131706.1,,def,def,protein_coding,PMM0068
+TX50_RS00380,Fe-S cluster assembly ATPase SufC,WP_011131710.1,,sufC,sufC,protein_coding,PMM0072
+TX50_RS00385,Fe-S cluster assembly protein SufB,WP_011131711.1,,sufB,sufB,protein_coding,PMM0073
+TX50_RS00420,thioredoxin-dependent thiol peroxidase,WP_011131717.1,,bcp,bcp,protein_coding,PMM0079
+TX50_RS00530,L-aspartate oxidase,WP_011131738.1,,nadB,nadB,protein_coding,PMM0100
+TX50_RS00540,30S ribosomal protein S12 methylthiotransferase RimO,WP_011131740.1,,rimO,rimO,protein_coding,PMM0102
+TX50_RS00590,30S ribosome-binding factor RbfA,WP_011131751.1,,rbfA,rbfA,protein_coding,PMM0112
+TX50_RS00605,9%2C9'-di-cis-zeta-carotene desaturase,WP_011131754.1,,zds,zds,protein_coding,PMM0115
+TX50_RS00645,cysteine synthase A,WP_011131762.1,,cysK,cysK,protein_coding,PMM0123
+TX50_RS00685,dTMP kinase,WP_011131769.1,,tmk,tmk,protein_coding,PMM0130
+TX50_RS00700,DNA repair protein RadA,WP_011131772.1,,radA,radA,protein_coding,PMM0133
+TX50_RS00710,phosphate acyltransferase PlsX,WP_011131774.1,,plsX,plsX,protein_coding,PMM0135
+TX50_RS00720,ACP S-malonyltransferase,WP_011131776.1,,fabD,fabD,protein_coding,PMM0137
+TX50_RS00755,15-cis-phytoene desaturase,WP_011131783.1,,pds,pds,protein_coding,PMM0144
+TX50_RS00820,NADH-quinone oxidoreductase subunit NuoK,WP_011131796.1,,nuoK,nuoK,protein_coding,PMM0157
+TX50_RS00830,NAD(P)H-quinone oxidoreductase subunit I,WP_011131798.1,,ndhI,ndhI,protein_coding,PMM0159
+TX50_RS00835,NADH-quinone oxidoreductase subunit NuoH,WP_011131799.1,,nuoH,nuoH,protein_coding,PMM0160
+TX50_RS00855,tryptophan synthase subunit beta,WP_011131803.1,,trpB,trpB,protein_coding,PMM0164
+TX50_RS00865,adenylyl-sulfate kinase,WP_011131805.1,,cysC,cysC,protein_coding,PMM0166
+TX50_RS00870,5-(carboxyamino)imidazole ribonucleotide mutase,WP_011131806.1,,purE,purE,protein_coding,PMM0167
+TX50_RS00875,magnesium protoporphyrin IX methyltransferase,WP_011131807.1,,bchM,bchM,protein_coding,PMM0168
+TX50_RS00890,16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH,WP_011131810.1,,rsmH,rsmH,protein_coding,PMM0171
+TX50_RS00915,2-carboxy-1%2C4-naphthoquinone phytyltransferase,WP_011131815.1,,menA,menA,protein_coding,PMM0176
+TX50_RS00925,glutathione synthase,WP_011131817.1,,gshB,gshB,protein_coding,PMM0178
+TX50_RS00930,glutaredoxin 3,WP_011131818.1,,grxC,grxC,protein_coding,PMM0179
+TX50_RS00935,peptide chain release factor 2,WP_011131819.1,,prfB,prfB,protein_coding,PMM0180
+TX50_RS00935,peptide chain release factor 2,WP_011131819.1,,prfB,prfB,protein_coding,PMM0180
+TX50_RS00945,rRNA maturation RNase YbeY,WP_011131821.1,,ybeY,ybeY,protein_coding,PMM0182
+TX50_RS00970,arginine--tRNA ligase,WP_011131826.1,,argS,argS,protein_coding,PMM0187
+TX50_RS00975,carboxylating nicotinate-nucleotide diphosphorylase,WP_011131827.1,,nadC,nadC,protein_coding,PMM0188
+TX50_RS00980,tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE,WP_011131828.1,,mnmE,mnmE,protein_coding,PMM0189
+TX50_RS01005,ribosome biogenesis GTPase YlqF,WP_011131833.1,,ylqF,ylqF,protein_coding,PMM0194
+TX50_RS01040,50S ribosomal protein L7/L12,WP_011131840.1,,rplL,rplL,protein_coding,PMM0201
+TX50_RS01045,50S ribosomal protein L10,WP_011131841.1,,rplJ,rplJ,protein_coding,PMM0202
+TX50_RS01050,50S ribosomal protein L1,WP_011131842.1,,rplA,rplA,protein_coding,PMM0203
+TX50_RS01055,50S ribosomal protein L11,WP_011131843.1,,rplK,rplK,protein_coding,PMM0204
+TX50_RS01060,transcription termination/antitermination protein NusG,WP_011131844.1,,nusG,nusG,protein_coding,PMM0205
+TX50_RS01065,preprotein translocase subunit SecE,WP_011131845.1,,secE,secE,protein_coding,PMM0206
+TX50_RS01075,phosphopyruvate hydratase,WP_011131847.1,,eno,eno,protein_coding,PMM0208
+TX50_RS01110,porphobilinogen synthase,WP_011131854.1,,hemB,hemB,protein_coding,PMM0215
+TX50_RS01125,GTPase ObgE,WP_011131857.1,,obgE,obgE,protein_coding,PMM0218
+TX50_RS01150,photosystem II q(b) protein,WP_011131862.1,,psbA,psbA,protein_coding,PMM0223
+TX50_RS01155,chorismate synthase,WP_011131863.1,,aroC,aroC,protein_coding,PMM0224
+TX50_RS01165,ATP-dependent zinc metalloprotease FtsH,WP_011131865.1,,ftsH,ftsH,protein_coding,PMM0226
+TX50_RS01170,sulfate adenylyltransferase,WP_011131866.1,,sat,sat,protein_coding,PMM0227
+TX50_RS01180,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC,WP_011131868.1,,coaBC,coaBC,protein_coding,PMM0229
+TX50_RS01210,Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatC,WP_011131874.1,,gatC,gatC,protein_coding,PMM0235
+TX50_RS01235,isoleucine--tRNA ligase,WP_011131876.1,,ileS,ileS,protein_coding,PMM0238
+TX50_RS01245,tRNA (guanosine(46)-N7)-methyltransferase TrmB,WP_011131878.1,,trmB,trmB,protein_coding,PMM0240
+TX50_RS01260,FAD-dependent thymidylate synthase,WP_011131881.1,,thyX,thyX,protein_coding,PMM0243
+TX50_RS01265,dCTP deaminase,WP_011131882.1,,dcd,dcd,protein_coding,PMM0244
+TX50_RS01275,global nitrogen regulator NtcA,WP_011131884.1,,ntcA,ntcA,protein_coding,PMM0246
+TX50_RS01295,aminoacyl-tRNA hydrolase,WP_011131888.1,,pth,pth,protein_coding,PMM0250
+TX50_RS01300,photosystem II reaction center protein PsbH,WP_011131889.1,,psbH,psbH,protein_coding,PMM0251
+TX50_RS01305,photosystem II reaction center protein PsbN,WP_011131890.1,,psbN,psbN,protein_coding,PMM0252
+TX50_RS01320,3-isopropylmalate dehydratase small subunit,WP_011131892.1,,leuD,leuD,protein_coding,PMM0255
+TX50_RS01325,3-isopropylmalate dehydratase large subunit,WP_011131893.1,,leuC,leuC,protein_coding,PMM0256
+TX50_RS01355,murein biosynthesis integral membrane protein MurJ,WP_011131898.1,,murJ,murJ,protein_coding,PMM0261
+TX50_RS01360,DNA/RNA nuclease SfsA,WP_011131899.1,,sfsA,sfsA,protein_coding,PMM0262
+TX50_RS01365,ammonium transporter,WP_011131900.1,,amt,amt,protein_coding,PMM0263
+TX50_RS01380,bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase,WP_011131903.1,,purH,purH,protein_coding,PMM0266
+TX50_RS01405,tRNA guanosine(34) transglycosylase Tgt,WP_011131908.1,,tgt,tgt,protein_coding,PMM0271
+TX50_RS01430,orotate phosphoribosyltransferase,WP_011131912.1,,pyrE,pyrE,protein_coding,PMM0275
+TX50_RS01450,RdgB/HAM1 family non-canonical purine NTP pyrophosphatase,WP_011131916.1,,rdgB,rdgB,protein_coding,PMM0279
+TX50_RS01460,imidazoleglycerol-phosphate dehydratase HisB,WP_011131918.1,,hisB,hisB,protein_coding,PMM0281
+TX50_RS01465,enoyl-ACP reductase FabI,WP_011131919.1,,fabI,fabI,protein_coding,PMM0282
+TX50_RS01490,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase,WP_011131924.1,,folK,folK,protein_coding,PMM0287
+TX50_RS01495,magnesium chelatase ATPase subunit D,WP_011131925.1,,bchD,bchD,protein_coding,PMM0288
+TX50_RS01540,cytochrome b559 subunit alpha,WP_011819648.1,,psbE,psbE,protein_coding,PMM0297
+TX50_RS01545,cytochrome b559 subunit beta,WP_011131935.1,,psbF,psbF,protein_coding,PMM0298
+TX50_RS01555,S-methyl-5'-thioadenosine phosphorylase,WP_036930991.1,,mtnP,mtnP,protein_coding,PMM0301
+TX50_RS01560,selenide%2C water dikinase SelD,WP_036930941.1,,selD,selD,protein_coding,PMM0302
+TX50_RS01615,methionine adenosyltransferase,WP_011131948.1,,metK,metK,protein_coding,PMM0311
+TX50_RS01625,transcriptional regulator NrdR,WP_011131950.1,,nrdR,nrdR,protein_coding,PMM0313
+TX50_RS01635,photosystem II chlorophyll-binding protein CP47,WP_011131952.1,,psbB,psbB,protein_coding,PMM0315
+TX50_RS01645,photosystem II reaction center protein PsbM,WP_011131954.1,,psbM,psbM,protein_coding,PMM0317
+TX50_RS01650,peptide chain release factor N(5)-glutamine methyltransferase,WP_011131955.1,,prmC,prmC,protein_coding,PMM0318
+TX50_RS01665,cell division topological specificity factor MinE,WP_011131957.1,,minE,minE,protein_coding,PMM0320
+TX50_RS01670,septum site-determining protein MinD,WP_011131958.1,,minD,minD,protein_coding,PMM0321
+TX50_RS01695,cytochrome b6-f complex subunit IV,WP_011131963.1,,petD,petD,protein_coding,PMM0326
+TX50_RS01850,aminoacyl-tRNA hydrolase,WP_011131986.1,,arfB,arfB,protein_coding,PMM0349
+TX50_RS01895,prolyl aminopeptidase,WP_011131993.1,,pip,pip,protein_coding,PMM0356
+TX50_RS01905,bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase,WP_011131995.1,,thiD,thiD,protein_coding,PMM0358
+TX50_RS01975,nitrate ABC transporter permease,WP_011132008.1,,ntrB,ntrB,protein_coding,PMM0371
+TX50_RS01985,cyanase,WP_011132010.1,,cynS,cynS,protein_coding,PMM0373
+TX50_RS02085,type II 3-dehydroquinate dehydratase,WP_011132023.1,,aroQ,aroQ,protein_coding,PMM0387
+TX50_RS02095,precorrin-2 C(20)-methyltransferase,WP_011132025.1,,cobI,cobI,protein_coding,PMM0389
+TX50_RS02105,ribosome biogenesis GTPase Der,WP_011132027.1,,der,der,protein_coding,PMM0391
+TX50_RS02130,pyrroline-5-carboxylate reductase,WP_011132032.1,,proC,proC,protein_coding,PMM0396
+TX50_RS02140,DNA repair protein RecO,WP_011132034.1,,recO,recO,protein_coding,PMM0398
+TX50_RS02150,ribosome-associated translation inhibitor RaiA,WP_011132036.1,,raiA,raiA,protein_coding,PMM0400
+TX50_RS02155,lipoyl(octanoyl) transferase LipB,WP_011132037.1,,lipB,lipB,protein_coding,PMM0401
+TX50_RS02185,tRNA preQ1(34) S-adenosylmethionine ribosyltransferase-isomerase QueA,WP_011132042.1,,queA,queA,protein_coding,PMM0406
+TX50_RS02190,cysteine synthase A,WP_011132043.1,,cysK,cysK,protein_coding,PMM0407
+TX50_RS02205,30S ribosomal protein S4,WP_011132046.1,,rpsD,rpsD,protein_coding,PMM0410
+TX50_RS02210,membrane protein insertion efficiency factor YidD,WP_011132047.1,,yidD,yidD,protein_coding,PMM0411
+TX50_RS02260,translation elongation factor 4,WP_011132056.1,,lepA,lepA,protein_coding,PMM0420
+TX50_RS02310,chlorophyll synthase ChlG,WP_011132064.1,,chlG,chlG,protein_coding,PMM0428
+TX50_RS02320,imidazole glycerol phosphate synthase subunit HisF,WP_011132066.1,,hisF,hisF,protein_coding,PMM0430
+TX50_RS02325,bifunctional demethylmenaquinone methyltransferase/2-methoxy-6-polyprenyl-1%2C4-benzoquinol methylase UbiE,WP_011132067.1,,ubiE,ubiE,protein_coding,PMM0431
+TX50_RS02350,type I DNA topoisomerase,WP_011132072.1,,topA,topA,protein_coding,PMM0436
+TX50_RS02395,cytochrome c oxidase subunit I,WP_011132081.1,,ctaD,ctaD,protein_coding,PMM0445
+TX50_RS02400,cytochrome c oxidase subunit II,WP_011132082.1,,coxB,coxB,protein_coding,PMM0446
+TX50_RS02430,chaperonin GroEL,WP_011132088.1,,groL,groL,protein_coding,PMM0452
+TX50_RS02440,3-oxoacyl-[acyl-carrier-protein] reductase,WP_011132089.1,,fabG,fabG,protein_coding,PMM0453
+TX50_RS02445,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,WP_011132090.1,,ispD,ispD,protein_coding,PMM0454
+TX50_RS02470,precorrin-4 C(11)-methyltransferase,WP_011132095.1,,cobM,cobM,protein_coding,PMM0459
+TX50_RS02475,prolipoprotein diacylglyceryl transferase,WP_011132096.1,,lgt,lgt,protein_coding,PMM0460
+TX50_RS02480,apocytochrome f,WP_225866765.1,,petA,petA,protein_coding,PMM0461
+TX50_RS02495,twin-arginine translocase subunit TatC,WP_011132100.1,,tatC,tatC,protein_coding,PMM0464
+TX50_RS02510,guanylate kinase,WP_011132103.1,,gmk,gmk,protein_coding,PMM0467
+TX50_RS02515,photosystem I reaction center subunit IX,WP_011132104.1,,psaJ,psaJ,protein_coding,PMM0468
+TX50_RS02525,tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD,WP_011132106.1,,tsaD,tsaD,protein_coding,PMM0470
+TX50_RS02540,glutamate--tRNA ligase,WP_011132109.1,,gltX,gltX,protein_coding,PMM0473
+TX50_RS02560,50S ribosomal protein L19,WP_225866766.1,,rplS,rplS,protein_coding,PMM0475
+TX50_RS02570,type I methionyl aminopeptidase,WP_011132112.1,,map,map,protein_coding,PMM0477
+TX50_RS02605,glutamate-1-semialdehyde 2%2C1-aminomutase,WP_011132118.1,,hemL,hemL,protein_coding,PMM0483
+TX50_RS02610,exodeoxyribonuclease III,WP_011132119.1,,xth,xth,protein_coding,PMM0484
+TX50_RS02625,nickel pincer cofactor biosynthesis protein LarC,WP_011132122.1,,larC,larC,protein_coding,PMM0487
+TX50_RS02665,hydroxymethylbilane synthase,WP_011132130.1,,hemC,hemC,protein_coding,PMM0495
+TX50_RS02670,RNA polymerase sigma factor RpoD,WP_011132131.1,,rpoD,rpoD,protein_coding,PMM0496
+TX50_RS02675,primosomal protein N',WP_225866768.1,,priA,priA,protein_coding,PMM0497
+TX50_RS02685,acetylglutamate kinase,WP_036930895.1,,argB,argB,protein_coding,PMM0499
+TX50_RS02710,divalent cation tolerance protein CutA,WP_011132139.1,,cutA,cutA,protein_coding,PMM0504
+TX50_RS02725,photosystem II protein Psb27,WP_011132142.1,,psb27,psb27,protein_coding,PMM0507
+TX50_RS02755,signal peptidase I,WP_011132148.1,,lepB,lepB,protein_coding,PMM0513
+TX50_RS02785,transaldolase,WP_011132154.1,,tal,tal,protein_coding,PMM0519
+TX50_RS02795,ribosome recycling factor,WP_011132156.1,,frr,frr,protein_coding,PMM0521
+TX50_RS02800,UMP kinase,WP_011132157.1,,pyrH,pyrH,protein_coding,PMM0522
+TX50_RS02805,cob(I)yrinic acid a%2Cc-diamide adenosyltransferase,WP_011132158.1,,cobO,cobO,protein_coding,PMM0523
+TX50_RS02815,ferrochelatase,WP_011132160.1,,hemH,hemH,protein_coding,PMM0525
+TX50_RS02820,biosynthetic-type acetolactate synthase large subunit,WP_011132161.1,,ilvB,ilvB,protein_coding,PMM0526
+TX50_RS02830,peptidoglycan editing factor PgeF,WP_011132163.1,,pgeF,pgeF,protein_coding,PMM0528
+TX50_RS02905,ferredoxin:protochlorophyllide reductase (ATP-dependent) iron-sulfur ATP-binding protein,WP_011132178.1,,bchL,bchL,protein_coding,PMM0543
+TX50_RS02985,hydroxyacylglutathione hydrolase,WP_011132193.1,,gloB,gloB,protein_coding,PMM0559
+TX50_RS02990,ATP phosphoribosyltransferase,WP_011132194.1,,hisG,hisG,protein_coding,PMM0560
+TX50_RS03015,chromosomal replication initiator protein DnaA,WP_011132199.1,,dnaA,dnaA,protein_coding,PMM0565
+TX50_RS03025,glutathione-disulfide reductase,WP_011132201.1,,gorA,gorA,protein_coding,PMM0567
+TX50_RS03035,dihydroorotase,WP_011132203.1,,pyrC,pyrC,protein_coding,PMM0569
+TX50_RS03055,tryptophan synthase subunit alpha,WP_011132206.1,,trpA,trpA,protein_coding,PMM0572
+TX50_RS03085,bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP diphosphatase HisIE,WP_011132212.1,,hisIE,hisIE,protein_coding,PMM0578
+TX50_RS03100,plastocyanin,WP_011132215.1,,petE,petE,protein_coding,PMM0581
+TX50_RS03110,uroporphyrinogen decarboxylase,WP_011132217.1,,hemE,hemE,protein_coding,PMM0583
+TX50_RS03115,1%2C4-alpha-glucan branching protein GlgB,WP_011132218.1,,glgB,glgB,protein_coding,PMM0584
+TX50_RS03150,dihydroneopterin aldolase,WP_011132225.1,,folB,folB,protein_coding,PMM0591
+TX50_RS03170,homoserine kinase,WP_011132229.1,,thrB,thrB,protein_coding,PMM0595
+TX50_RS03175,glucokinase,WP_011132230.1,,glk,glk,protein_coding,PMM0596
+TX50_RS03180,threonine--tRNA ligase,WP_011132231.1,,thrS,thrS,protein_coding,PMM0597
+TX50_RS03185,tryptophan--tRNA ligase,WP_011132232.1,,trpS,trpS,protein_coding,PMM0598
+TX50_RS03225,signal peptidase I,WP_011132240.1,,lepB,lepB,protein_coding,PMM0606
+TX50_RS03230,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase,WP_011132241.1,,menD,menD,protein_coding,PMM0607
+TX50_RS03235,1%2C4-dihydroxy-2-naphthoyl-CoA synthase,WP_011132242.1,,menB,menB,protein_coding,PMM0608
+TX50_RS03240,glycogen synthase GlgA,WP_011132243.1,,glgA,glgA,protein_coding,PMM0609
+TX50_RS03245,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase,WP_011132244.1,,murF,murF,protein_coding,PMM0610
+TX50_RS03250,bifunctional UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase GlmU,WP_011132245.1,,glmU,glmU,protein_coding,PMM0611
+TX50_RS03260,3-phosphoshikimate 1-carboxyvinyltransferase,WP_011132247.1,,aroA,aroA,protein_coding,PMM0613
+TX50_RS03280,glutamate racemase,WP_011132251.1,,murI,murI,protein_coding,PMM0617
+TX50_RS03285,solanesyl diphosphate synthase,WP_011132252.1,,sds,sds,protein_coding,PMM0618
+TX50_RS03290,acetate--CoA ligase,WP_011132253.1,,acs,acs,protein_coding,PMM0619
+TX50_RS03310,histidine--tRNA ligase,WP_011132257.1,,hisS,hisS,protein_coding,PMM0623
+TX50_RS03385,arsenosugar biosynthesis radical SAM protein ArsS,WP_011132272.1,,arsS,arsS,protein_coding,PMM0638
+TX50_RS03390,glucosylglycerol 3-phosphatase,WP_011132273.1,,stpA,stpA,protein_coding,PMM0639
+TX50_RS03460,lactoylglutathione lyase,WP_011132287.1,,gloA,gloA,protein_coding,PMM0653
+TX50_RS03495,23S rRNA pseudouridine(2604) synthase RluF,WP_011132292.1,,rluF,rluF,protein_coding,PMM0658
+TX50_RS03520,ribonucleoside-triphosphate reductase%2C adenosylcobalamin-dependent,WP_036930962.1,,nrdJ,nrdJ,protein_coding,PMM0661
+TX50_RS03540,Hsp33 family molecular chaperone HslO,WP_011132299.1,,hslO,hslO,protein_coding,PMM0665
+TX50_RS03595,(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase,WP_011132310.1,,ispG,ispG,protein_coding,PMM0676
+TX50_RS03605,quinolinate synthase NadA,WP_080503707.1,,nadA,nadA,protein_coding,PMM0678
+TX50_RS03625,3-dehydroquinate synthase,WP_011132316.1,,aroB,aroB,protein_coding,PMM0682
+TX50_RS03790,phosphate ABC transporter substrate-binding protein PstS,WP_011132344.1,,pstS,pstS,protein_coding,PMM0710
+TX50_RS03795,chromate efflux transporter,WP_011132345.1,,chrA,chrA,protein_coding,PMM0711
+TX50_RS03800,organoarsenical effux MFS transporter ArsJ,WP_011132346.1,,arsJ,arsJ,protein_coding,PMM0712
+TX50_RS03825,ACR3 family arsenite efflux transporter,WP_036930807.1,,arsB,arsB,protein_coding,PMM0716
+TX50_RS03865,phosphate ABC transporter permease subunit PstC,WP_011132357.1,,pstC,pstC,protein_coding,PMM0723
+TX50_RS03870,phosphate ABC transporter permease PstA,WP_011132358.1,,pstA,pstA,protein_coding,PMM0724
+TX50_RS03875,phosphate ABC transporter ATP-binding protein PstB,WP_011132359.1,,pstB,pstB,protein_coding,PMM0725
+TX50_RS03885,ligase-associated DNA damage response endonuclease PdeM,WP_011132361.1,,pdeM,pdeM,protein_coding,PMM0727
+TX50_RS03970,cytochrome b6-f complex subunit PetN,WP_011376303.1,,petN,petN,protein_coding,PMM0740
+TX50_RS03975,photosystem II biogenesis protein Psp29,WP_011132375.1,,psb29,psb29,protein_coding,PMM0741
+TX50_RS03980,ATP-dependent Clp endopeptidase proteolytic subunit ClpP,WP_011132376.1,,clpP,clpP,protein_coding,PMM0742
+TX50_RS03985,ATP-dependent zinc metalloprotease FtsH,WP_011132377.1,,ftsH,ftsH,protein_coding,PMM0743
+TX50_RS04015,ABC transporter permease DevC,WP_036930952.1,,devC,devC,protein_coding,PMM0749
+TX50_RS04030,30S ribosomal protein S2,WP_011132387.1,,rpsB,rpsB,protein_coding,PMM0753
+TX50_RS04035,translation elongation factor Ts,WP_011132388.1,,tsf,tsf,protein_coding,PMM0754
+TX50_RS04045,ATP-dependent DNA helicase RecG,WP_011132390.1,,recG,recG,protein_coding,PMM0756
+TX50_RS04060,glycine--tRNA ligase subunit beta,WP_011132393.1,,glyS,glyS,protein_coding,PMM0759
+TX50_RS04065,geranylgeranyl reductase,WP_011132394.1,,chlP,chlP,protein_coding,PMM0760
+TX50_RS04075,translational GTPase TypA,WP_011132396.1,,typA,typA,protein_coding,PMM0762
+TX50_RS04085,LPS export ABC transporter ATP-binding protein,WP_011132398.1,,lptB,lptB,protein_coding,PMM0764
+TX50_RS04090,c-type cytochrome biogenesis protein CcsB,WP_011132399.1,,ccsB,ccsB,protein_coding,PMM0765
+TX50_RS04095,ribulose-phosphate 3-epimerase,WP_011132400.1,,rpe,rpe,protein_coding,PMM0766
+TX50_RS04100,class II fructose-bisphosphatase,WP_011132401.1,,glpX,glpX,protein_coding,PMM0767
+TX50_RS04115,NADP-dependent phosphogluconate dehydrogenase,WP_011132404.1,,gndA,gndA,protein_coding,PMM0770
+TX50_RS04120,6-phosphogluconolactonase,WP_011132405.1,,pgl,pgl,protein_coding,PMM0771
+TX50_RS04135,dihydroxy-acid dehydratase,WP_011132408.1,,ilvD,ilvD,protein_coding,PMM0774
+TX50_RS04160,phosphoribosylformylglycinamidine synthase subunit PurS,WP_011132413.1,,purS,purS,protein_coding,PMM0779
+TX50_RS04165,phosphoribosylformylglycinamidine synthase subunit PurQ,WP_011132414.1,,purQ,purQ,protein_coding,PMM0780
+TX50_RS04170,fructose-bisphosphate aldolase class II,WP_011132415.1,,fba,fba,protein_coding,PMM0781
+TX50_RS04185,acetyl-CoA carboxylase%2C carboxyltransferase subunit beta,WP_011132418.1,,accD,accD,protein_coding,PMM0784
+TX50_RS04195,3-isopropylmalate dehydrogenase,WP_011132420.1,,leuB,leuB,protein_coding,PMM0786
+TX50_RS04200,UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase,WP_011132421.1,,lpxD,lpxD,protein_coding,PMM0787
+TX50_RS04205,glutamate 5-kinase,WP_011132422.1,,proB,proB,protein_coding,PMM0788
+TX50_RS04220,Holliday junction resolvase RuvX,WP_011132425.1,,ruvX,ruvX,protein_coding,PMM0791
+TX50_RS04245,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase,WP_011132430.1,,hisA,hisA,protein_coding,PMM0796
+TX50_RS04255,CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase,WP_011132432.1,,pgsA,pgsA,protein_coding,PMM0798
+TX50_RS04275,endonuclease III,WP_011132436.1,,nth,nth,protein_coding,PMM0802
+TX50_RS04410,ribosome silencing factor,WP_011132457.1,,rsfS,rsfS,protein_coding,PMM0823
+TX50_RS04420,carbamoyl-phosphate synthase large subunit,WP_011132459.1,,carB,carB,protein_coding,PMM0825
+TX50_RS04440,triose-phosphate isomerase,WP_011132463.1,,tpiA,tpiA,protein_coding,PMM0829
+TX50_RS04445,dihydropteroate synthase,WP_011132464.1,,folP,folP,protein_coding,PMM0830
+TX50_RS04455,4-hydroxy-tetrahydrodipicolinate reductase,WP_011132466.1,,dapB,dapB,protein_coding,PMM0832
+TX50_RS04490,transcription-repair coupling factor,WP_011132473.1,,mfd,mfd,protein_coding,PMM0839
+TX50_RS04500,methionyl-tRNA formyltransferase,WP_011132475.1,,fmt,fmt,protein_coding,PMM0841
+TX50_RS04515,magnesium-protoporphyrin IX monomethyl ester (oxidative) cyclase,WP_011132478.1,,acsF,acsF,protein_coding,PMM0844
+TX50_RS04560,50S ribosomal protein L32,WP_011132487.1,,rpmF,rpmF,protein_coding,PMM0853
+TX50_RS04565,ATP-dependent zinc metalloprotease FtsH,WP_011132488.1,,ftsH,ftsH,protein_coding,PMM0854
+TX50_RS04635,LPS export ABC transporter periplasmic protein LptC,WP_080503708.1,,lptC,lptC,protein_coding,PMM0866
+TX50_RS04640,methionine--tRNA ligase,WP_011132501.1,,metG,metG,protein_coding,PMM0867
+TX50_RS04650,30S ribosomal protein S18,WP_002806014.1,,rpsR,rpsR,protein_coding,PMM0869
+TX50_RS04655,50S ribosomal protein L33,WP_011132503.1,,rpmG,rpmG,protein_coding,PMM0870
+TX50_RS04660,phenylalanine--tRNA ligase subunit beta,WP_011132504.1,,pheT,pheT,protein_coding,PMM0871
+TX50_RS04690,methionine synthase,WP_011132510.1,,metH,metH,protein_coding,PMM0877
+TX50_RS04700,cobaltochelatase subunit CobN,WP_011132512.1,,cobN,cobN,protein_coding,PMM0879
+TX50_RS04710,protoporphyrinogen oxidase HemJ,WP_036930471.1,,hemJ,hemJ,protein_coding,PMM0881
+TX50_RS04715,excinuclease ABC subunit UvrC,WP_011132515.1,,uvrC,uvrC,protein_coding,PMM0882
+TX50_RS04725,pantetheine-phosphate adenylyltransferase,WP_011132517.1,,coaD,coaD,protein_coding,PMM0884
+TX50_RS04745,diaminopimelate epimerase,WP_011132521.1,,dapF,dapF,protein_coding,PMM0888
+TX50_RS04750,leucine--tRNA ligase,WP_011132522.1,,leuS,leuS,protein_coding,PMM0889
+TX50_RS04760,phosphoribosylglycinamide formyltransferase,WP_011132524.1,,purN,purN,protein_coding,PMM0891
+TX50_RS04765,N-acetyl-gamma-glutamyl-phosphate reductase,WP_011132525.1,,argC,argC,protein_coding,PMM0892
+TX50_RS04770,bifunctional 3%2C4-dihydroxy-2-butanone-4-phosphate synthase RibB/GTP cyclohydrolase II RibA,WP_011132526.1,,ribA,ribA,protein_coding,PMM0893
+TX50_RS04790,molecular chaperone DnaK,WP_011132530.1,,dnaK,dnaK,protein_coding,PMM0897
+TX50_RS04815,molecular chaperone HtpG,WP_011132534.1,,htpG,htpG,protein_coding,PMM0901
+TX50_RS04820,50S ribosomal protein L28,WP_011132535.1,,rpmB,rpmB,protein_coding,PMM0902
+TX50_RS04840,photosystem I reaction center subunit PsaK,WP_011132539.1,,psaK,psaK,protein_coding,PMM0906
+TX50_RS04845,1-deoxy-D-xylulose-5-phosphate synthase,WP_011132540.1,,dxs,dxs,protein_coding,PMM0907
+TX50_RS04850,threonine ammonia-lyase%2C biosynthetic,WP_011132541.1,,ilvA,ilvA,protein_coding,PMM0908
+TX50_RS04855,SMC-Scp complex subunit ScpB,WP_011132542.1,,scpB,scpB,protein_coding,PMM0909
+TX50_RS04870,pyruvate kinase,WP_011132545.1,,pyk,pyk,protein_coding,PMM0912
+TX50_RS04885,signal peptidase II,WP_011132548.1,,lspA,lspA,protein_coding,PMM0915
+TX50_RS04910,type I glutamate--ammonia ligase,WP_011132553.1,,glnA,glnA,protein_coding,PMM0920
+TX50_RS04935,tRNA 2-selenouridine(34) synthase MnmH,WP_011132558.1,,mnmH,mnmH,protein_coding,PMM0925
+TX50_RS04940,photosystem II reaction center protein Psb28,WP_011132559.1,,psb28,psb28,protein_coding,PMM0926
+TX50_RS04950,protein translocase subunit SecF,WP_011132561.1,,secF,secF,protein_coding,PMM0928
+TX50_RS04955,protein translocase subunit SecD,WP_011132562.1,,secD,secD,protein_coding,PMM0929
+TX50_RS04970,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase,WP_011132565.1,,ispE,ispE,protein_coding,PMM0932
+TX50_RS04975,16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase RsmA,WP_011132566.1,,rsmA,rsmA,protein_coding,PMM0933
+TX50_RS04990,translesion error-prone DNA polymerase V autoproteolytic subunit,WP_011132569.1,,umuD,umuD,protein_coding,PMM0936
+TX50_RS05005,DNA primase,WP_011132572.1,,dnaG,dnaG,protein_coding,PMM0939
+TX50_RS05025,30S ribosomal protein S15,WP_011132576.1,,rpsO,rpsO,protein_coding,PMM0943
+TX50_RS05040,Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA,WP_011132579.1,,gatA,gatA,protein_coding,PMM0946
+TX50_RS05050,23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB,WP_011132581.1,,rlmB,rlmB,protein_coding,PMM0948
+TX50_RS05060,glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit,WP_011132584.1,,carA,carA,protein_coding,PMM0951
+TX50_RS05065,anthranilate phosphoribosyltransferase,WP_011132585.1,,trpD,trpD,protein_coding,PMM0952
+TX50_RS05080,peptide-methionine (S)-S-oxide reductase MsrA,WP_011132588.1,,msrA,msrA,protein_coding,PMM0955
+TX50_RS05125,urease subunit alpha,WP_011132596.1,,ureC,ureC,protein_coding,PMM0963
+TX50_RS05145,urease accessory protein UreE,WP_011132600.1,,ureE,ureE,protein_coding,PMM0967
+TX50_RS05155,urease accessory protein UreG,WP_011132602.1,,ureG,ureG,protein_coding,PMM0969
+TX50_RS05160,urea ABC transporter substrate-binding protein,WP_036930312.1,,urtA,urtA,protein_coding,PMM0970
+TX50_RS05170,urea ABC transporter permease subunit UrtC,WP_011132605.1,,urtC,urtC,protein_coding,PMM0972
+TX50_RS05175,urea ABC transporter ATP-binding protein UrtD,WP_011132606.1,,urtD,urtD,protein_coding,PMM0973
+TX50_RS05180,urea ABC transporter ATP-binding subunit UrtE,WP_011132607.1,,urtE,urtE,protein_coding,PMM0974
+TX50_RS05265,30S ribosomal protein S21,WP_002806486.1,,rpsU,rpsU,protein_coding,PMM0987
+TX50_RS05350,aminopeptidase N,WP_011132634.1,,pepN,pepN,protein_coding,PMM1002
+TX50_RS05370,formate-dependent phosphoribosylglycinamide formyltransferase,WP_011132636.1,,purT,purT,protein_coding,PMM1004
+TX50_RS05395,tRNA dihydrouridine synthase DusB,WP_036930291.1,,dusB,dusB,protein_coding,PMM1009
+TX50_RS05665,crossover junction endodeoxyribonuclease RuvC,WP_011132687.1,,ruvC,ruvC,protein_coding,PMM1054
+TX50_RS05670,magnesium chelatase ATPase subunit I,WP_011132688.1,,bchI,bchI,protein_coding,PMM1055
+TX50_RS05685,cytochrome b6-f complex subunit PetG,WP_011132691.1,,petG,petG,protein_coding,PMM1058
+TX50_RS05690,16S rRNA (guanine(966)-N(2))-methyltransferase RsmD,WP_011132692.1,,rsmD,rsmD,protein_coding,PMM1059
+TX50_RS05695,imidazole glycerol phosphate synthase subunit HisH,WP_011132693.1,,hisH,hisH,protein_coding,PMM1060
+TX50_RS05700,thioredoxin,WP_011132694.1,,trxA,trxA,protein_coding,PMM1061
+TX50_RS05710,DNA gyrase subunit A,WP_011132696.1,,gyrA,gyrA,protein_coding,PMM1063
+TX50_RS05740,bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD,WP_011132702.1,,folD,folD,protein_coding,PMM1069
+TX50_RS05765,glucose-6-phosphate dehydrogenase,WP_011132707.1,,zwf,zwf,protein_coding,PMM1074
+TX50_RS05805,4-alpha-glucanotransferase,WP_011132714.1,,malQ,malQ,protein_coding,PMM1081
+TX50_RS05850,diaminopimelate decarboxylase,WP_011132723.1,,lysA,lysA,protein_coding,PMM1090
+TX50_RS05855,diadenylate cyclase CdaA,WP_011132724.1,,cdaA,cdaA,protein_coding,PMM1091
+TX50_RS05865,biotin synthase BioB,WP_011132726.1,,bioB,bioB,protein_coding,PMM1093
+TX50_RS05880,lipoyl synthase,WP_011132729.1,,lipA,lipA,protein_coding,PMM1096
+TX50_RS05885,recombination mediator RecR,WP_011132730.1,,recR,recR,protein_coding,PMM1097
+TX50_RS05955,Grx4 family monothiol glutaredoxin,WP_011132744.1,,grxD,grxD,protein_coding,PMM1111
+TX50_RS05975,carotene isomerase,WP_036930317.1,,crtH,crtH,protein_coding,PMM1115
+TX50_RS05980,methylenetetrahydrofolate--tRNA-(uracil(54)-C(5))-methyltransferase (FADH(2)-oxidizing) TrmFO,WP_011132749.1,,trmFO,trmFO,protein_coding,PMM1116
+TX50_RS06135,redox-regulated ATPase YchF,WP_011132771.1,,ychF,ychF,protein_coding,PMM1138
+TX50_RS06145,DNA polymerase I,WP_011132773.1,,polA,polA,protein_coding,PMM1140
+TX50_RS06150,cysteine--tRNA ligase,WP_011132774.1,,cysS,cysS,protein_coding,PMM1141
+TX50_RS06195,thioredoxin-disulfide reductase,WP_011132783.1,,trxB,trxB,protein_coding,PMM1150
+TX50_RS06200,translation initiation factor IF-1,WP_011132784.1,,infA,infA,protein_coding,PMM1151
+TX50_RS06215,cytochrome b6-f complex subunit PetM,WP_011132786.1,,petM,petM,protein_coding,PMM1152a
+TX50_RS06225,acetolactate synthase small subunit,WP_011132788.1,,ilvN,ilvN,protein_coding,PMM1154
+TX50_RS06240,photosystem II D2 protein (photosystem q(a) protein),WP_011132791.1,,psbD,psbD,protein_coding,PMM1157
+TX50_RS06245,photosystem II reaction center protein CP43,WP_011132792.1,,psbC,psbC,protein_coding,PMM1158
+TX50_RS06295,glycine--tRNA ligase subunit alpha,WP_011132799.1,,glyQ,glyQ,protein_coding,PMM1165
+TX50_RS06325,flavodoxin FldA,WP_011132805.1,,fldA,fldA,protein_coding,PMM1171
+TX50_RS06370,signal peptide peptidase SppA,WP_011132814.1,,sppA,sppA,protein_coding,PMM1180
+TX50_RS06375,chorismate mutase,WP_011132815.1,,aroH,aroH,protein_coding,PMM1181
+TX50_RS06385,50S ribosomal protein L34,WP_011132817.1,,rpmH,rpmH,protein_coding,PMM1183
+TX50_RS06400,membrane protein insertase YidC,WP_011132820.1,,yidC,yidC,protein_coding,PMM1186
+TX50_RS06410,serine--tRNA ligase,WP_011132822.1,,serS,serS,protein_coding,PMM1188
+TX50_RS06415,RIP metalloprotease RseP,WP_011132823.1,,rseP,rseP,protein_coding,PMM1189
+TX50_RS06420,30S ribosomal protein S14,WP_011132824.1,,rpsN,rpsN,protein_coding,PMM1190
+TX50_RS06435,16S rRNA (cytidine(1402)-2'-O)-methyltransferase,WP_011132827.1,,rsmI,rsmI,protein_coding,PMM1193
+TX50_RS06490,CDP-glucose 4%2C6-dehydratase,WP_011132837.1,,rfbG,rfbG,protein_coding,PMM1203
+TX50_RS06495,glucose-1-phosphate cytidylyltransferase,WP_011132838.1,,rfbF,rfbF,protein_coding,PMM1204
+TX50_RS06515,GDP-mannose 4%2C6-dehydratase,WP_011132842.1,,gmd,gmd,protein_coding,PMM1208
+TX50_RS06520,UDP-glucose 4-epimerase GalE,WP_011132843.1,,galE,galE,protein_coding,PMM1209
+TX50_RS06550,L-2-hydroxyglutarate oxidase,WP_011132849.1,,lhgO,lhgO,protein_coding,PMM1215
+TX50_RS06785,transcriptional repressor LexA,WP_011132896.1,,lexA,lexA,protein_coding,PMM1262
+TX50_RS06790,ornithine carbamoyltransferase,WP_011132897.1,,argF,argF,protein_coding,PMM1263
+TX50_RS06795,ATP-dependent zinc metalloprotease FtsH,WP_011132898.1,,ftsH,ftsH,protein_coding,PMM1264
+TX50_RS06800,bifunctional diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino)uracil reductase RibD,WP_011132899.1,,ribD,ribD,protein_coding,PMM1265
+TX50_RS06825,phenylalanine--tRNA ligase subunit alpha,WP_011132904.1,,pheS,pheS,protein_coding,PMM1270
+TX50_RS06830,5'/3'-nucleotidase SurE,WP_011132905.1,,surE,surE,protein_coding,PMM1271
+TX50_RS06850,sulfur carrier protein ThiS,WP_011132909.1,,thiS,thiS,protein_coding,PMM1275
+TX50_RS06855,nickel pincer cofactor biosynthesis protein LarB,WP_011132912.1,,larB,larB,protein_coding,PMM1278
+TX50_RS09360,tRNA (guanosine(37)-N1)-methyltransferase TrmD,WP_011132914.1,,trmD,trmD,protein_coding,PMM1280
+TX50_RS06875,GTPase Era,WP_011132915.1,,era,era,protein_coding,PMM1281
+TX50_RS06895,30S ribosomal protein S16,WP_011132919.1,,rpsP,rpsP,protein_coding,PMM1285
+TX50_RS06900,signal recognition particle protein,WP_011132920.1,,ffh,ffh,protein_coding,PMM1286
+TX50_RS06910,pyruvate dehydrogenase (acetyl-transferring) E1 component subunit alpha,WP_011132922.1,,pdhA,pdhA,protein_coding,PMM1288
+TX50_RS06925,tRNA 2-thiouridine(34) synthase MnmA,WP_011132925.1,,mnmA,mnmA,protein_coding,PMM1291
+TX50_RS06940,superoxide dismutase%2C Ni,WP_011132928.1,,sodN,sodN,protein_coding,PMM1294
+TX50_RS06945,nickel-type superoxide dismutase maturation protease,WP_225866787.1,,sodX,sodX,protein_coding,PMM1295
+TX50_RS06955,indole-3-glycerol phosphate synthase TrpC,WP_011132931.1,,trpC,trpC,protein_coding,PMM1297
+TX50_RS06960,dihydrolipoyl dehydrogenase,WP_011132932.1,,lpdA,lpdA,protein_coding,PMM1298
+TX50_RS06970,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,WP_011132934.1,,murA,murA,protein_coding,PMM1300
+TX50_RS07005,tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB,WP_011132939.1,,miaB,miaB,protein_coding,PMM1305
+TX50_RS07025,cell division protein FtsZ,WP_011132943.1,,ftsZ,ftsZ,protein_coding,PMM1309
+TX50_RS07030,3-methyl-2-oxobutanoate hydroxymethyltransferase,WP_011132944.1,,panB,panB,protein_coding,PMM1310
+TX50_RS07035,radical SAM family heme chaperone HemW,WP_036930510.1,,hemW,hemW,protein_coding,PMM1311
+TX50_RS07055,ketol-acid reductoisomerase,WP_011132949.1,,ilvC,ilvC,protein_coding,PMM1315
+TX50_RS07060,adenosylcobinamide-phosphate synthase CbiB,WP_011132950.1,,cbiB,cbiB,protein_coding,PMM1316
+TX50_RS07125,glycerol-3-phosphate 1-O-acyltransferase PlsY,WP_011132961.1,,plsY,plsY,protein_coding,PMM1327
+TX50_RS07130,orotidine-5'-phosphate decarboxylase,WP_011132962.1,,pyrF,pyrF,protein_coding,PMM1328
+TX50_RS07135,tyrosine--tRNA ligase,WP_011132963.1,,tyrS,tyrS,protein_coding,PMM1329
+TX50_RS07155,peptide-methionine (S)-S-oxide reductase MsrA,WP_011132967.1,,msrA,msrA,protein_coding,PMM1333
+TX50_RS07160,lipid-A-disaccharide synthase,WP_011132968.1,,lpxB,lpxB,protein_coding,PMM1334
+TX50_RS07165,acyl-ACP--UDP-N-acetylglucosamine O-acyltransferase,WP_036930507.1,,lpxA,lpxA,protein_coding,PMM1335
+TX50_RS07170,3-hydroxyacyl-ACP dehydratase FabZ,WP_011132970.1,,fabZ,fabZ,protein_coding,PMM1336
+TX50_RS07175,UDP-3-O-acyl-N-acetylglucosamine deacetylase,WP_011132971.1,,lpxC,lpxC,protein_coding,PMM1337
+TX50_RS07190,phosphoribosylamine--glycine ligase,WP_011132974.1,,purD,purD,protein_coding,PMM1340
+TX50_RS07200,circadian clock protein KaiC,WP_011132976.1,,kaiC,kaiC,protein_coding,PMM1342
+TX50_RS07205,circadian clock protein KaiB,WP_011132977.1,,kaiB,kaiB,protein_coding,PMM1343
+TX50_RS07210,50S ribosomal protein L21,WP_011132978.1,,rplU,rplU,protein_coding,PMM1344
+TX50_RS07215,50S ribosomal protein L27,WP_011132979.1,,rpmA,rpmA,protein_coding,PMM1345
+TX50_RS07225,tRNA pseudouridine(55) synthase TruB,WP_011132981.1,,truB,truB,protein_coding,PMM1347
+TX50_RS07235,ribonuclease Z,WP_011132983.1,,rnz,rnz,protein_coding,PMM1349
+TX50_RS07255,50S ribosomal protein L11 methyltransferase,WP_011132987.1,,prmA,prmA,protein_coding,PMM1353
+TX50_RS07260,phosphoglycerate dehydrogenase,WP_011132988.1,,serA,serA,protein_coding,PMM1354
+TX50_RS07320,UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase,WP_011132998.1,,murD,murD,protein_coding,PMM1364
+TX50_RS07565,LPS export ABC transporter periplasmic protein LptC,WP_011133035.1,,lptC,lptC,protein_coding,PMM1406
+TX50_RS07720,bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase PyrR,WP_011133062.1,,pyrR,pyrR,protein_coding,PMM1433
+TX50_RS07725,2%2C3-bisphosphoglycerate-independent phosphoglycerate mutase,WP_011133063.1,,gpmI,gpmI,protein_coding,PMM1434
+TX50_RS07730,preprotein translocase subunit SecG,WP_011133064.1,,secG,secG,protein_coding,PMM1435
+TX50_RS07735,chaperonin GroEL,WP_011133065.1,,groL,groL,protein_coding,PMM1436
+TX50_RS07740,co-chaperone GroES,WP_011133066.1,,groES,groES,protein_coding,PMM1437
+TX50_RS07745,F0F1 ATP synthase subunit beta,WP_011133067.1,,atpD,atpD,protein_coding,PMM1438
+TX50_RS07805,F0F1 ATP synthase subunit alpha,WP_011133080.1,,atpA,atpA,protein_coding,PMM1451
+TX50_RS07825,ATP synthase F0 subunit C,WP_002805169.1,,atpE,atpE,protein_coding,PMM1455
+TX50_RS07855,preQ(1) synthase,WP_011133089.1,,queF,queF,protein_coding,PMM1461
+TX50_RS07875,adenylosuccinate lyase,WP_011133093.1,,purB,purB,protein_coding,PMM1465
+TX50_RS07905,dethiobiotin synthase,WP_011133099.1,,bioD,bioD,protein_coding,PMM1471
+TX50_RS07910,adenosylmethionine--8-amino-7-oxononanoate transaminase,WP_011133100.1,,bioA,bioA,protein_coding,PMM1472
+TX50_RS07925,16S rRNA (guanine(527)-N(7))-methyltransferase RsmG,WP_011133103.1,,rsmG,rsmG,protein_coding,PMM1475
+TX50_RS07955,23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN,WP_011133109.1,,rlmN,rlmN,protein_coding,PMM1481
+TX50_RS07975,DNA-directed RNA polymerase subunit beta,WP_011133113.1,,rpoB,rpoB,protein_coding,PMM1485
+TX50_RS07985,30S ribosomal protein S20,WP_011133115.1,,rpsT,rpsT,protein_coding,PMM1487
+TX50_RS07990,histidinol dehydrogenase,WP_011133116.1,,hisD,hisD,protein_coding,PMM1488
+TX50_RS07995,ribose-5-phosphate isomerase RpiA,WP_011133117.1,,rpiA,rpiA,protein_coding,PMM1489
+TX50_RS08005,ribosome maturation factor RimP,WP_011133119.1,,rimP,rimP,protein_coding,PMM1491
+TX50_RS08010,transcription termination factor NusA,WP_011133120.1,,nusA,nusA,protein_coding,PMM1492
+TX50_RS08020,translation initiation factor IF-2,WP_011133122.1,,infB,infB,protein_coding,PMM1494
+TX50_RS08045,ATP-dependent Clp protease adapter ClpS,WP_036930728.1,,clpS,clpS,protein_coding,PMM1499
+TX50_RS08070,prephenate dehydratase,WP_011133132.1,,pheA,pheA,protein_coding,PMM1504
+TX50_RS08085,30S ribosomal protein S10,WP_011133135.1,,rpsJ,rpsJ,protein_coding,PMM1507
+TX50_RS08090,elongation factor Tu,WP_011133136.1,,tuf,tuf,protein_coding,PMM1508
+TX50_RS08095,elongation factor G,WP_011133137.1,,fusA,fusA,protein_coding,PMM1509
+TX50_RS08100,30S ribosomal protein S7,WP_011133138.1,,rpsG,rpsG,protein_coding,PMM1510
+TX50_RS08105,30S ribosomal protein S12,WP_011133139.1,,rpsL,rpsL,protein_coding,PMM1511
+TX50_RS08110,glutamate synthase large subunit,WP_011133140.1,,gltB,gltB,protein_coding,PMM1512
+TX50_RS08120,lipoyl synthase,WP_011133142.1,,lipA,lipA,protein_coding,PMM1514
+TX50_RS08165,photosystem I core protein PsaB,WP_011133151.1,,psaB,psaB,protein_coding,PMM1523
+TX50_RS08170,photosystem I core protein PsaA,WP_011133152.1,,psaA,psaA,protein_coding,PMM1524
+TX50_RS08175,precorrin-3B C(17)-methyltransferase,WP_011133153.1,,cobJ,cobJ,protein_coding,PMM1525
+TX50_RS08190,alanine racemase,WP_011133155.1,,alr,alr,protein_coding,PMM1527
+TX50_RS08200,peptide chain release factor 1,WP_011133157.1,,prfA,prfA,protein_coding,PMM1529
+TX50_RS08205,50S ribosomal protein L31,WP_011133158.1,,rpmE,rpmE,protein_coding,PMM1530
+TX50_RS08210,30S ribosomal protein S9,WP_011133159.1,,rpsI,rpsI,protein_coding,PMM1531
+TX50_RS08215,50S ribosomal protein L13,WP_011133160.1,,rplM,rplM,protein_coding,PMM1532
+TX50_RS08220,tRNA pseudouridine(38-40) synthase TruA,WP_011133161.1,,truA,truA,protein_coding,PMM1533
+TX50_RS08225,50S ribosomal protein L17,WP_011133162.1,,rplQ,rplQ,protein_coding,PMM1534
+TX50_RS08235,30S ribosomal protein S11,WP_011133164.1,,rpsK,rpsK,protein_coding,PMM1536
+TX50_RS08240,30S ribosomal protein S13,WP_011133165.1,,rpsM,rpsM,protein_coding,PMM1537
+TX50_RS09335,50S ribosomal protein L36,WP_011133166.1,,rpmJ,rpmJ,protein_coding,PMM1538
+TX50_RS08250,preprotein translocase subunit SecY,WP_011133168.1,,secY,secY,protein_coding,PMM1540
+TX50_RS08255,50S ribosomal protein L15,WP_011133169.1,,rplO,rplO,protein_coding,PMM1541
+TX50_RS08260,30S ribosomal protein S5,WP_011133170.1,,rpsE,rpsE,protein_coding,PMM1542
+TX50_RS08265,50S ribosomal protein L18,WP_011133171.1,,rplR,rplR,protein_coding,PMM1543
+TX50_RS08270,50S ribosomal protein L6,WP_011133172.1,,rplF,rplF,protein_coding,PMM1544
+TX50_RS08275,30S ribosomal protein S8,WP_011133173.1,,rpsH,rpsH,protein_coding,PMM1545
+TX50_RS08280,50S ribosomal protein L5,WP_011133174.1,,rplE,rplE,protein_coding,PMM1546
+TX50_RS08285,50S ribosomal protein L24,WP_011133175.1,,rplX,rplX,protein_coding,PMM1547
+TX50_RS08290,50S ribosomal protein L14,WP_011133176.1,,rplN,rplN,protein_coding,PMM1548
+TX50_RS08295,30S ribosomal protein S17,WP_011133177.1,,rpsQ,rpsQ,protein_coding,PMM1549
+TX50_RS08300,50S ribosomal protein L29,WP_011133178.1,,rpmC,rpmC,protein_coding,PMM1550
+TX50_RS08305,50S ribosomal protein L16,WP_011133179.1,,rplP,rplP,protein_coding,PMM1551
+TX50_RS08310,30S ribosomal protein S3,WP_011133180.1,,rpsC,rpsC,protein_coding,PMM1552
+TX50_RS08315,50S ribosomal protein L22,WP_011133181.1,,rplV,rplV,protein_coding,PMM1553
+TX50_RS08320,30S ribosomal protein S19,WP_011133182.1,,rpsS,rpsS,protein_coding,PMM1554
+TX50_RS08325,50S ribosomal protein L2,WP_011133183.1,,rplB,rplB,protein_coding,PMM1555
+TX50_RS08335,50S ribosomal protein L4,WP_011133185.1,,rplD,rplD,protein_coding,PMM1557
+TX50_RS08340,50S ribosomal protein L3,WP_011133186.1,,rplC,rplC,protein_coding,PMM1558
+TX50_RS08365,recombinase RecA,WP_011133190.1,,recA,recA,protein_coding,PMM1562
+TX50_RS08385,C-3'%2C4' desaturase CrtD,WP_011133194.1,,crtD,crtD,protein_coding,PMM1566
+TX50_RS08410,ATP-dependent sacrificial sulfur transferase LarE,WP_011133199.1,,larE,larE,protein_coding,PMM1571
+TX50_RS08415,adenosylmethionine decarboxylase,WP_011133200.1,,speD,speD,protein_coding,PMM1572
+TX50_RS08420,DNA replication/repair protein RecF,WP_071812980.1,,recF,recF,protein_coding,PMM1573
+TX50_RS08435,phosphoenolpyruvate carboxylase,WP_011133203.1,,ppc,ppc,protein_coding,PMM1575
+TX50_RS08440,glutamate--cysteine ligase,WP_011133204.1,,gshA,gshA,protein_coding,PMM1576
+TX50_RS08460,rod shape-determining protein RodA,WP_011133208.1,,rodA,rodA,protein_coding,PMM1580
+TX50_RS08470,oxygen-dependent coproporphyrinogen oxidase,WP_011133210.1,,hemF,hemF,protein_coding,PMM1582
+TX50_RS08505,phosphoribosylformylglycinamidine cyclo-ligase,WP_011133217.1,,purM,purM,protein_coding,PMM1589
+TX50_RS08590,ribosome maturation factor RimM,WP_011133233.1,,rimM,rimM,protein_coding,PMM1605
+TX50_RS08595,glutamine--fructose-6-phosphate transaminase (isomerizing),WP_011133234.1,,glmS,glmS,protein_coding,PMM1606
+TX50_RS08600,photosystem I iron-sulfur center protein PsaC,WP_007099573.1,,psaC,psaC,protein_coding,PMM1607
+TX50_RS08605,acyl carrier protein,WP_011133235.1,,acpP,acpP,protein_coding,PMM1608
+TX50_RS08610,beta-ketoacyl-ACP synthase II,WP_011133236.1,,fabF,fabF,protein_coding,PMM1609
+TX50_RS08615,transketolase,WP_011133237.1,,tkt,tkt,protein_coding,PMM1610
+TX50_RS08620,phosphomethylpyrimidine synthase ThiC,WP_011133238.1,,thiC,thiC,protein_coding,PMM1611
+TX50_RS08640,Holliday junction branch migration DNA helicase RuvB,WP_011133242.1,,ruvB,ruvB,protein_coding,PMM1615
+TX50_RS08645,SsrA-binding protein SmpB,WP_036930740.1,,smpB,smpB,protein_coding,PMM1616
+TX50_RS08655,lysine--tRNA ligase,WP_011133245.1,,lysS,lysS,protein_coding,PMM1618
+TX50_RS08670,rod shape-determining protein MreC,WP_011133248.1,,mreC,mreC,protein_coding,PMM1621
+TX50_RS08690,adenosylhomocysteinase,WP_011133252.1,,ahcY,ahcY,protein_coding,PMM1625
+TX50_RS08695,tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex ATPase subunit type 1 TsaE,WP_011133253.1,,tsaE,tsaE,protein_coding,PMM1626
+TX50_RS08715,magnesium transporter,WP_011133257.1,,mgtE,mgtE,protein_coding,PMM1630
+TX50_RS08735,DNA topoisomerase (ATP-hydrolyzing) subunit B,WP_011133261.1,,gyrB,gyrB,protein_coding,PMM1634
+TX50_RS08740,tRNA (adenosine(37)-N6)-dimethylallyltransferase MiaA,WP_011133262.1,,miaA,miaA,protein_coding,PMM1635
+TX50_RS08745,translation initiation factor IF-3,WP_011133263.1,,infC,infC,protein_coding,PMM1636
+TX50_RS08755,serine O-acetyltransferase,WP_011133265.1,,cysE,cysE,protein_coding,PMM1638
+TX50_RS08760,preprotein translocase subunit SecA,WP_011133266.1,,secA,secA,protein_coding,PMM1639
+TX50_RS08785,6%2C7-dimethyl-8-ribityllumazine synthase,WP_011133270.1,,ribH,ribH,protein_coding,PMM1643
+TX50_RS08790,photosystem II reaction center protein PsbZ,WP_011133271.1,,psbZ,psbZ,protein_coding,PMM1644
+TX50_RS08795,DNA mismatch repair protein MutS,WP_011133272.1,,mutS,mutS,protein_coding,PMM1645
+TX50_RS08805,DNA polymerase III subunit delta,WP_011133274.1,,holA,holA,protein_coding,PMM1647
+TX50_RS08815,excinuclease ABC subunit UvrB,WP_011133276.1,,uvrB,uvrB,protein_coding,PMM1649
+TX50_RS08825,tRNA lysidine(34) synthetase TilS,WP_011133278.1,,tilS,tilS,protein_coding,PMM1651
+TX50_RS08835,4-hydroxy-tetrahydrodipicolinate synthase,WP_011133280.1,,dapA,dapA,protein_coding,PMM1653
+TX50_RS08845,trigger factor,WP_011133282.1,,tig,tig,protein_coding,PMM1655
+TX50_RS08850,ATP-dependent Clp endopeptidase proteolytic subunit ClpP,WP_225866790.1,,clpP,clpP,protein_coding,PMM1656
+TX50_RS08855,ATP-dependent protease ATP-binding subunit ClpX,WP_011133284.1,,clpX,clpX,protein_coding,PMM1657
+TX50_RS08875,50S ribosomal protein L35,WP_011133288.1,,rpmI,rpmI,protein_coding,PMM1661
+TX50_RS08880,50S ribosomal protein L20,WP_011133289.1,,rplT,rplT,protein_coding,PMM1662
+TX50_RS08910,aminomethyl-transferring glycine dehydrogenase,WP_011133295.1,,gcvP,gcvP,protein_coding,PMM1668
+TX50_RS08915,glycine cleavage system protein GcvH,WP_011133296.1,,gcvH,gcvH,protein_coding,PMM1669
+TX50_RS08935,50S ribosomal protein L9,WP_011133300.1,,rplI,rplI,protein_coding,PMM1673
+TX50_RS08940,replicative DNA helicase,WP_011133301.1,,dnaB,dnaB,protein_coding,PMM1674
+TX50_RS08945,tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG,WP_011133302.1,,mnmG,mnmG,protein_coding,PMM1675
+TX50_RS08995,nucleoside triphosphate pyrophosphohydrolase,WP_011133311.1,,mazG,mazG,protein_coding,PMM1684
+TX50_RS09000,polyamine aminopropyltransferase,WP_011133312.1,,speE,speE,protein_coding,PMM1685
+TX50_RS09005,agmatinase,WP_011133313.1,,speB,speB,protein_coding,PMM1686
+TX50_RS09010,glycine cleavage system aminomethyltransferase GcvT,WP_011133314.1,,gcvT,gcvT,protein_coding,PMM1687
+TX50_RS09015,aspartate--tRNA ligase,WP_011133315.1,,aspS,aspS,protein_coding,PMM1688
+TX50_RS09030,7-cyano-7-deazaguanine synthase QueC,WP_011133318.1,,queC,queC,protein_coding,PMM1691
+TX50_RS09045,uroporphyrinogen-III C-methyltransferase,WP_036930751.1,,cobA,cobA,protein_coding,PMM1694
+TX50_RS09055,polyphosphate kinase 1,WP_011133323.1,,ppk1,ppk1,protein_coding,PMM1696
+TX50_RS09075,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,WP_011133327.1,,acnB,acnB,protein_coding,PMM1700
+TX50_RS09085,formyltetrahydrofolate deformylase,WP_011133329.1,,purU,purU,protein_coding,PMM1702
+TX50_RS09095,molecular chaperone DnaK,WP_011133331.1,,dnaK,dnaK,protein_coding,PMM1704
+TX50_RS09105,30S ribosomal protein S6,WP_011133333.1,,rpsF,rpsF,protein_coding,PMM1706
+TX50_RS09125,phospho-N-acetylmuramoyl-pentapeptide-transferase,WP_036930713.1,,mraY,mraY,protein_coding,PMM1709
+TX50_RS09140,excinuclease ABC subunit UvrA,WP_011133339.1,,uvrA,uvrA,protein_coding,PMM1712
+TX50_RS09160,threonine synthase,WP_011133343.1,,thrC,thrC,protein_coding,PMM1716
