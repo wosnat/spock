@@ -1,28 +1,38 @@
 #/usr/bin/env python
-# -*- coding: utf-8 -*-
+##-- coding: utf-8 -*-
 
-from typing import Annotated
-from typing_extensions import TypedDict
-from langgraph.graph import StateGraph, START
-from langgraph.graph.message import add_messages
+# %%
+
+"""Create a React agent with a tool and visualize the graph."""
 from dotenv import load_dotenv
-from IPython.display import Image, display
-import gradio as gr
-from langgraph.prebuilt import ToolNode, tools_condition
-import requests
-import os
-from langchain.agents import Tool
 
+
+
+# the agent prebuilt imports
+from langgraph.prebuilt import create_react_agent
 from langchain_openai import ChatOpenAI
-from langgraph.checkpoint.memory import MemorySaver
+from pydantic import BaseModel
+import asyncio
 
-from langchain_community.agent_toolkits import PlayWrightBrowserToolkit
-from langchain_community.tools.playwright.utils import create_async_playwright_browser
 
 from typing import Optional, List
 from pydantic import BaseModel, Field
 from enum import Enum
 
+
+# %%
+# playwright imports
+from langchain_community.agent_toolkits import PlayWrightBrowserToolkit
+from langchain_community.tools.playwright.utils import (
+    create_async_playwright_browser,  # A synchronous browser is available, though it isn't compatible with jupyter.\n",	  },
+)
+
+
+# %%
+
+
+
+# %%
 # bibtex format
 # @article{10.1093/ismejo/wraf106,
 #     author = {Sheyn, Uri and Poff, Kirsten E and Eppley, John M and Leu, Andy O>
@@ -58,55 +68,65 @@ class Reference(BaseModel):
 
 
 
-
+# %%
 # load dotenv
 # This is needed to load the environment variables from the .env file
 load_dotenv(override=True)
 
 
+# %%
+# This import is required only for jupyter notebooks, since they have their own eventloop
+#import nest_asyncio
+
+#nest_asyncio.apply()
+
+
+
+# %%
 # playwright tools
 async_browser =  create_async_playwright_browser()  
 toolkit = PlayWrightBrowserToolkit.from_browser(async_browser=async_browser)
-tools = toolkit.get_tools()
+playwright_tools = toolkit.get_tools()
 
 
+# %%
+# the model
+# from langchain_ollama import ChatOllama
+# llm = ChatOllama(model="gemma3", temperature=0)
 
-class State(TypedDict):
-    messages: Annotated[list, add_messages]
-
-
-graph_builder = StateGraph(State)
-
-
-
-# openai 
+from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(model="gpt-4o-mini")
-llm_with_tools = llm.bind_tools(tools)
-def chatbot(state: State):
-    return {"messages": [llm_with_tools.invoke(state["messages"])]}
 
 
-# the langgaraph graph
-graph_builder = StateGraph(State)
-graph_builder.add_node("chatbot", chatbot)
-graph_builder.add_node("tools", ToolNode(tools=tools))
-graph_builder.add_conditional_edges( "chatbot", tools_condition, "tools")
-graph_builder.add_edge("tools", "chatbot")
-graph_builder.add_edge(START, "chatbot")
+# %%
 
-memory = MemorySaver()
-graph = graph_builder.compile(checkpointer=memory)
-#display(Image(graph.get_graph().draw_mermaid_png()))
+agent_chain = create_react_agent(
+    llm,
+    tools=playwright_tools,
+    response_format=Reference,
+)
 
-config = {"configurable": {"thread_id": "10"}}
-
-async def chat(user_input: str, history):
-    result = await graph.ainvoke({"messages": [{"role": "user", "content": user_input}]}, config=config)
-    return result["messages"][-1].content
+agent_chain.get_graph().draw_mermaid_png()
 
 
-gr.ChatInterface(chat, type="messages").launch()
+# %%
+# SuperFastPython.com
+# example of await within a coroutine
+ 
+# define coroutine
+async def main():
+    # entry point of the program
+    print('Main is running')
+    
+    url = "https://www.langchain.com/langsmith"
+    url = "https://sfamjournals.onlinelibrary.wiley.com/doi/10.1046/j.1462-2920.2003.00456.x"
+    params = {"messages": [("user", f"get me a citation for the url: {url}")]}
+    print(params)
+    # run a coroutine
+    result = await agent_chain.ainvoke(params)
+    print(result)
 
-
-
+ 
+# run the coroutine
+asyncio.run(main())
 
