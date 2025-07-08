@@ -1,4 +1,4 @@
-locus_tag,product,protein_id,pseudo,Name_gene,gene_gene,gene_biotype,old_locus_tag
+locus_tag,product,protein_id,pseudo,gene_name_or_id,gene_gene,gene_biotype,old_locus_tag
 TX50_RS00020,DNA polymerase III subunit beta,WP_011131639.1,,dnaN,dnaN,protein_coding,PMM0001
 TX50_RS00030,phosphoribosylformylglycinamidine synthase subunit PurL,WP_011131641.1,,purL,purL,protein_coding,PMM0003
 TX50_RS00035,amidophosphoribosyltransferase,WP_011131642.1,,purF,purF,protein_coding,PMM0004

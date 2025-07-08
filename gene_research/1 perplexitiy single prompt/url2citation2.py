@@ -106,6 +106,8 @@ llm = ChatOpenAI(model="gpt-4o-mini")
 # %%
 
 checkpointer = InMemorySaver()
+
+
 agent_chain = create_react_agent(
     llm,
     tools=playwright_tools,

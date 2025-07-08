@@ -4,16 +4,22 @@
 
 # placeholders: 'locus_tag','product','protein_id','pseudo','Name_gene','gene_gene','gene_biotype','old_locus_tag']
 prompt_for_single_prompt_perplexity_prochlorococcus = '''
-You are a research assistant tasked with creating a comprehensive summary of a specific gene's function and its role in the coculture of Prochlorococcus and Alteromonas under nitrogen limitation conditions. Your goal is to provide a detailed, fact-based summary using published scientific literature.
+Search for and review published studies related to the specified gene, focusing on its role in Prochlorococcus, cyanobacteria, or similar marine microorganisms. 
+
+Search for and review published studies related to the specified gene, focusing on its role in Prochlorococcus, cyanobacteria, or similar marine microorganisms. 
+if there is no data available on this gene in Prochlorococcus, search for studies in related cynobactria, like synechococcus or Synechocystis. 
+And if even those are not available look for info on this gene in gram negative bacteria or in marine autotrophs.
+
+You are a research assistant tasked with creating a comprehensive summary of a specific gene's function.
+Your goal is to provide a detailed, fact-based summary using published scientific literature.
+
+This summary will be used to analyze the transcriptome of a coculture of Prochlorococcus MED4 and Alteromonas under nitrogen limitation conditions. 
 
 The gene you will be researching is:
 <gene_name>
 {gene_name_or_id}
 </gene_name>
 
-<organism>
-Prochlorococcus MED4
-</organism>
 
 <locus_tag>
 {locus_tag}
@@ -42,11 +48,11 @@ In your research summary, cover the following areas:
 
 Follow these steps to conduct your research and present your findings:
 
-1. Search for and review published studies related to the specified gene, focusing on its role in Prochlorococcus, cyanobacteria, or similar marine microorganisms.
+1. Search for and review published studies related to the specified gene, focusing on its role in Prochlorococcus, cyanobacteria, or similar marine microorganisms. 
+if there is no data available on this gene in Prochlorococcus, search for studies in related cynobactria, like synechococcus or Synechocystis. 
+And if even those are not available look for info on this gene in gram negative bacteria or in marine autotrophs.
 
 2. For each area listed above, provide a summary of the gene's role or impact, based on factual data from scientific papers. Include multiple findings per category if available.
-
-3. When discussing gene expression or protein abundances, provide interpretations of their significance in the context of the coculture and nitrogen limitation.
 
 
 6. After completing your research, assess your confidence in the findings. Consider factors such as the number of relevant studies, consistency of results across studies, and the recency of the research. Provide a brief justification for your confidence assessment.
@@ -91,10 +97,6 @@ Format your response as follows:
 </bacterial_interaction>
 
 
-<citations>
-[list of papers cited throughout. Including title, authors, year and journal. Include url and DOI where available]
-</citations>
-
 <confidence_assessment>
 [Justification for confidence score]
 </confidence_assessment>
@@ -105,7 +107,8 @@ Format your response as follows:
 </research_summary>
 
 
-Ensure that your summary is comprehensive, fact-based, and based on published literature.  If there is insufficient information available for any section, state this clearly and explain why the information might be lacking.
+Ensure that your summary is comprehensive, fact-based, and based on published literature.  
+If there is insufficient information available for any section, state this clearly and explain why the information might be lacking.
 
 '''
 
@@ -227,8 +230,9 @@ I have the following information about the gene {gene_name_or_id} in Prochloroco
 {review_text}
 
 
-# list of urls for the citations in the review:
-{citations_urls}
+# list of citations in the review (in bibtex format):
+{citations}
+
 
 
 # TASK AND INSTRUCTIONS
@@ -242,6 +246,7 @@ Your task is to search the web for relevant scientific literature related to the
     - **finding_category/finding_type:** Use one of the key process terms (e.g., 'nutrient uptake', 'stress response', 'coculture role').
     - **finding_description:** Be specific. Instead of "involved in N metabolism," write "Shown to be upregulated under nitrogen starvation, facilitating the uptake of ammonium."
     - **finding_evidence:** Extract the experimental method, e.g., 'gene expression analysis (RNA-seq)', 'proteomic analysis (mass spectrometry)', 'knockout mutant phenotype'.
+    - **organism:** Names of the organisms used in the study
     - **Phylogenetic Distance:** This is crucial. Assess the organism used in the study:
         - 'Direct': The study was done in Prochlorococcus.
         - 'Close': The study was in another cyanobacterium (e.g., Synechococcus, Synechocystis).
@@ -267,7 +272,7 @@ class ResearchFindingSimple(BaseModel):
     finding_type: str = Field(description="Type of finding, e.g. 'gene function', 'stress response', 'nutrient uptake', 'nutrient exudation', 'coculture role'")
     url: str = Field(description="URL to access the research paper supporting this finding")
     title: str = Field(description="Title of the research paper supporting this finding")
-    citation: str = Field(description="Citation for the research paper supporting this finding")
+    citation: str = Field(description="Citation for the research paper supporting this finding (use APA format)")
     organism: str = Field(description="Organism where the finding is studied in the cited literature")
     phylogenetic_distance: str = Field(description="Phylogenetic distance between this research and Prochlorococcus")
     additional_notes: str = Field(description="Any additional notes or comments about the finding")
