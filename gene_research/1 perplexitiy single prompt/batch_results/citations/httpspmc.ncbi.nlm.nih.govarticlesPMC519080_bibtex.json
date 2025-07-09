@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC519080/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1104/pp.104.042770,\n    author = {},\n    title = {Critical Roles of Bacterioferritins in Iron Storage and Proliferation of Cyanobacteria},\n    journal = {Plant Physiology},\n    volume = {135},\n    number = {3},\n    pages = {1666},\n    year = {2004},\n    doi = {10.1104/pp.104.042770},\n    url = {https://doi.org/10.1104/pp.104.042770},\n    abstract = {},\n}\n```"
+}

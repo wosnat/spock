@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC419952/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1128/JB.186.12.3991-3999.2004,\n    author = {},\n    title = {Involvement of the SppA1 Peptidase in Acclimation to Saturating Light Intensities in Synechocystis sp. Strain PCC 6803},\n    journal = {Journal of Bacteriology},\n    volume = {186},\n    number = {12},\n    pages = {3991--3999},\n    year = {2004},\n    doi = {10.1128/JB.186.12.3991-3999.2004},\n    url = {https://doi.org/10.1128/JB.186.12.3991-3999.2004},\n}\n```"
+}

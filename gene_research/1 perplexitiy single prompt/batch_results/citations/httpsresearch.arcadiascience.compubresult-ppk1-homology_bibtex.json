@@ -1,0 +1,5 @@
+{
+  "url": "https://research.arcadiascience.com/pub/result-ppk1-homology",
+  "status": "success",
+  "content": "```bibtex\n@article{10.57844/arcadia-ac10-23e7,\n    author = {Prachee Avasthi and Brae M. Bigge and Feridun Mert Celebi and Jase Gehring and Megan L. Hochstrasser and Elizabeth A. McDaniel and Austin H. Patton and Taylor Reiter and Dennis A. Sun},\n    title = {Discovering shared protein structure signatures connected to polyphosphate accumulation in diverse bacteria},\n    journal = {Arcadia Science},\n    year = {2023},\n    month = {10},\n    doi = {10.57844/arcadia-ac10-23e7},\n    url = {https://doi.org/10.57844/arcadia-ac10-23e7},\n    abstract = {Only some bacteria accumulate substantial amounts of polyphosphate (polyP). We thought that despite sequence divergence, polyP synthesis enzymes in these bacteria might have similar structures. We found this is sometimes true but doesn\u2019t fully explain the phenomenon. This work may also be interesting to those curious about the types of insights that can be gained by exploring structural homologs of a protein of interest.}\n}\n```"
+}

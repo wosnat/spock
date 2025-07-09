@@ -1,0 +1,5 @@
+{
+  "url": "https://mediatum.ub.tum.de/doc/669162/669162.pdf",
+  "status": "success",
+  "content": "```bibtex\n@article{10.3389/fpls.2022.837528,\n    author = {Yi, Lanbo and Liu, Bin and Nixon, Peter J. and Yu, Jianfeng and Chen, Feng},\n    title = {Recent Advances in Understanding the Structural and Functional Evolution of FtsH Proteases},\n    journal = {Frontiers in Plant Science},\n    volume = {13},\n    year = {2022},\n    doi = {10.3389/fpls.2022.837528},\n    url = {https://doi.org/10.3389/fpls.2022.837528},\n    abstract = {The FtsH family of proteases are membrane-anchored, ATP-dependent, zinc metalloproteases. They are universally present in prokaryotes and the mitochondria an...}\n}\n```"
+}

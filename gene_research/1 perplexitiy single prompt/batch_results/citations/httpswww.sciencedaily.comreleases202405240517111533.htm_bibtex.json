@@ -1,0 +1,5 @@
+{
+  "url": "https://www.sciencedaily.com/releases/2024/05/240517111533.htm",
+  "status": "success",
+  "content": "```bibtex\n@article{bruwer2024globally,\n    author = {Br\u00fcwer, Jan D. and Sidhu, Chandni and Zhao, Yanlin and Eich, Andreas and R\u00f6\u00dfler, Leonard and Orellana, Luis H. and Fuchs, Bernhard M.},\n    title = {Globally occurring pelagiphage infections create ribosome-deprived cells},\n    journal = {Nature Communications},\n    volume = {15},\n    number = {1},\n    pages = {48172},\n    year = {2024},\n    month = {05},\n    doi = {10.1038/s41467-024-48172-w},\n    url = {https://doi.org/10.1038/s41467-024-48172-w},\n    abstract = {Marine microbes control the flux of matter and energy essential for life in the oceans. Among them, the bacterial group SAR11 accounts for about a third of all the bacteria found in surface ocean waters. A study now reveals that at times nearly 20% of SAR11 cells are infected by viruses, significantly reducing total cell numbers. The viruses can also transform these once thriving bacteria into zombies, a phenomenon observed for the first time and widespread in the oceans.}\n}\n```"
+}

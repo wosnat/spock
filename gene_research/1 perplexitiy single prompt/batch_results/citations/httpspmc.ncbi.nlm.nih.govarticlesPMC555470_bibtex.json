@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC555470/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1073/pnas.0408056102,\n    title = {From cyclohydrolase to oxidoreductase: Discovery of nitrile reductase activity in a common fold},\n    journal = {Proceedings of the National Academy of Sciences},\n    volume = {102},\n    number = {12},\n    pages = {4264},\n    year = {2005},\n    doi = {10.1073/pnas.0408056102},\n    url = {https://doi.org/10.1073/pnas.0408056102},\n}\n```"
+}

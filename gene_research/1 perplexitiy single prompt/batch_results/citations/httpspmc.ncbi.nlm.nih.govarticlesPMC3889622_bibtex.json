@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3889622/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1128/JB.00651-13,\n    author = {Unknown},\n    title = {Description of a Riboflavin Biosynthetic Gene Variant Prevalent in the Phylum Proteobacteria},\n    journal = {Journal of Bacteriology},\n    volume = {195},\n    number = {24},\n    pages = {5479},\n    year = {2013},\n    doi = {10.1128/JB.00651-13},\n    abstract = {Riboflavin (vitamin B2) is the precursor of flavin mononucleotide and flavin adenine dinucleotide, which are cofactors essential for a host of intracellular redox reactions. Microorganisms synthesize flavins de novo to fulfill nutritional ...},\n    url = {https://doi.org/10.1128/JB.00651-13}\n}\n```"
+}

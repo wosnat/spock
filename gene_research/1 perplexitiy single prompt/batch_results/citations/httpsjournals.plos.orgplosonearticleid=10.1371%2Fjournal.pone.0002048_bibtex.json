@@ -1,0 +1,5 @@
+{
+  "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0002048",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1371/journal.pone.0002048,\n    author = {Bryan, Michael J. and Burroughs, Nigel J. and Spence, Edward M. and Clokie, Martha R. J. and Mann, Nicholas H. and Bryan, Samantha J.},\n    title = {Evidence for the Intense Exchange of MazG in Marine Cyanophages by Horizontal Gene Transfer},\n    journal = {PLoS ONE},\n    volume = {3},\n    number = {4},\n    pages = {e2048},\n    year = {2008},\n    month = {04},\n    doi = {10.1371/journal.pone.0002048},\n    url = {https://doi.org/10.1371/journal.pone.0002048},\n    abstract = {This study provides evidence of a globally connected cyanophage gene pool, the cyanophage mazG gene having a small effective population size indicative of rapid lateral gene transfer despite being present in a substantial fraction of cyanophage. The Prochlorococcus and Synechococcus phage mazG genes do not cluster with the host mazG gene, suggesting that their primary hosts are not the source of the mazG gene.}\n}\n```"
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://www.ebi.ac.uk/interpro/entry/interpro/IPR017499",
+  "status": "success",
+  "content": "```bibtex\n@article{Keren2005,\n    author = {Keren, Nir and Ohkawa, Hiroshi and Welsh, Eric A and Liberton, Michelle and Pakrasi, H B},\n    title = {Psb29, a conserved 22-kD protein, functions in the biogenesis of Photosystem II complexes in Synechocystis and Arabidopsis},\n    journal = {Plant Cell},\n    volume = {17},\n    pages = {2768--2781},\n    year = {2005},\n    pmid = {16155179},\n    url = {https://doi.org/10.1105/tpc.105.033080},\n    abstract = {Psb29, a conserved 22-kD protein, functions in the biogenesis of Photosystem II complexes in Synechocystis and Arabidopsis. In Synechocystis it was isolated and partially sequenced from purified photosystem II (PS II). Deletion of psb29 in Synechocystis 6803 results in slower growth rates under high light intensities, increased light sensitivity, and lower PSII efficiency, without affecting the PSII core electron transfer activities.}\n}\n```"
+}

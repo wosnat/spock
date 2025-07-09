@@ -1,0 +1,5 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Orange_carotenoid_protein",
+  "status": "success",
+  "content": "```bibtex\n@article{Kirilovsky2013,\n    author = {Kirilovsky, Dmitry and Kerfeld, Cheryl A},\n    title = {The Orange Carotenoid Protein: a blue-green light photoactive protein},\n    journal = {Photochemical & Photobiological Sciences},\n    volume = {12},\n    number = {7},\n    pages = {1135--1143},\n    year = {2013},\n    month = {07},\n    doi = {10.1039/c3pp25406b},\n    pmid = {23396391},\n}\n```"
+}

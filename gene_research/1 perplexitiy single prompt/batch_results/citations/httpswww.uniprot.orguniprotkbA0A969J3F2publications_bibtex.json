@@ -1,0 +1,5 @@
+{
+  "url": "https://www.uniprot.org/uniprotkb/A0A969J3F2/publications",
+  "status": "success",
+  "content": "```bibtex\n@article{waterworth2020conserved,\n    author = {Waterworth, S.C. and Isemonger, E.W. and Rees, E.R. and Dorrington, R.A. and Kwan, J.C.},\n    title = {Conserved bacterial genomes from two geographically distinct peritidal stromatolite formations shed light on potential functional guilds},\n    journal = {UniProtKB},\n    year = {2020},\n    note = {Cited for NUCLEOTIDE SEQUENCE, Strain RU_5_0},\n    url = {https://www.uniprot.org/uniprotkb/A0A969J3F2/publications}\n}\n```"
+}

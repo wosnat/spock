@@ -1,0 +1,5 @@
+{
+  "url": "https://search.library.oregonstate.edu/discovery/fulldisplay?docid=cdi_unpaywall_primary_10_1093_pcp_pch041&context=PC&vid=01ALLIANCE_OSU%3AOSU&lang=en&search_scope=OSU_Everything_Profile&adaptor=Primo+Central&tab=Everything&query=sub%2Cequals%2C+Synechocystis+&offset=30",
+  "status": "success",
+  "content": "@article{10.1093/pcp/pch041,\n    author = {Takahama, K. and Matsuoka, M. and Nagahama, K. and Ogawa, T.},\n    title = {High-frequency gene replacement in cyanobacteria using a heterologous rps12 gene},\n    journal = {Plant and Cell Physiology},\n    volume = {45},\n    number = {3},\n    pages = {333-339},\n    year = {2004},\n    month = {03},\n    doi = {10.1093/pcp/pch041},\n    url = {https://doi.org/10.1093/pcp/pch041},\n    abstract = {High-frequency gene replacement in cyanobacteria using a heterologous rps12 gene.}\n}"
+}

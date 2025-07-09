@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC135753/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1093/nar/gkf433,\n    author = {},\n    title = {Regulation of riboflavin biosynthesis and transport genes in bacteria by transcriptional and translational attenuation},\n    journal = {Nucleic Acids Research},\n    volume = {30},\n    number = {14},\n    pages = {3141},\n    year = {2002},\n    doi = {10.1093/nar/gkf433},\n    url = {https://doi.org/10.1093/nar/gkf433},\n}\n```"
+}

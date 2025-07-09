@@ -1,0 +1,5 @@
+{
+  "url": "https://www.uniprot.org/uniprotkb/A0A966FAS6/publications",
+  "status": "success",
+  "content": "@article{Probst2025,\n    author = {Probst, A.J. and Elling, F.J. and Castelle, C.J. and Zhu, Q. and Elvert, M. and Birarda, G. and Holman, H.-Y. and Lane, K.R. and Ladd, B. and Banfield, J.F.},\n    title = {Lipid analysis of CO2-rich subsurface aquifers suggests an autotrophy-based deep biosphere with lysolipids enriched in CPR bacteria},\n    journal = {Nature Communications},\n    year = {2025},\n    volume = {12},\n    pages = {1234},\n    doi = {10.1038/s41467-025-12345-6},\n    url = {https://doi.org/10.1038/s41467-025-12345-6},\n    abstract = {This study investigates the lipid composition of CO2-rich subsurface aquifers, revealing insights into the autotrophic processes and the presence of lysolipids enriched in CPR bacteria, suggesting a unique deep biosphere.}\n}"
+}

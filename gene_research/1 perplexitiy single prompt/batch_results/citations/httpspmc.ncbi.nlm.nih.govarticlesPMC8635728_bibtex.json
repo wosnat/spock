@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8635728/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.3389/fmicb.2021.774107,\n    author = {},\n    title = {Regulation and Functional Complexity of the Chlorophyll-Binding Protein IsiA},\n    journal = {Frontiers in Microbiology},\n    volume = {12},\n    year = {2021},\n    doi = {10.3389/fmicb.2021.774107},\n    abstract = {As the oldest known lineage of oxygen-releasing photosynthetic organisms, cyanobacteria play the key roles in helping shaping the ecology of Earth. Iron is an ideal transition metal for redox reactions in biological systems. Cyanobacteria frequently ...},\n    url = {https://doi.org/10.3389/fmicb.2021.774107}\n}\n```"
+}

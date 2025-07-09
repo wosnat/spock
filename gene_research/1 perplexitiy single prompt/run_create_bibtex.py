@@ -61,6 +61,11 @@ If the URL is not valid, respond with 'Problem: This URL is not valid.'
 If the URL is a scientific article but you cannot access it, respond with 'Problem: I cannot access this URL.
 
 
+When you successfully extract the information or encounter an error you cannot resolve, 
+respond with a final summary WITHOUT making any more tool calls.
+
+Use tools only when necessary to navigate and extract information.
+
 
 '''
 
@@ -77,9 +82,18 @@ class State(TypedDict):
 
 
 # # %%
-# import nest_asyncio
-# nest_asyncio.apply()
+import hashlib
 
+def url2fname(url, max_length=100):
+    fprefix = pathvalidate.sanitize_filename(url)
+    if len(fprefix) > max_length:
+        hash_suffix = hashlib.md5(url.encode()).hexdigest()[:8]
+        fprefix_shorter = fprefix[:max_length -  10]  # Leave room for hash
+        fprefix = f'{fprefix_shorter}_{hash_suffix}'
+    fname =  f'{fprefix}_bibtex.json'
+    return fname
+
+# Before saving
 
 def get_urls_list(in_dpath : str):
     all_citations = set()
@@ -96,36 +110,76 @@ def get_urls_list(in_dpath : str):
     return list(all_citations)
 
 
-# Define the main async function
-async def run_agent(graph, all_citations, prompts, out_dpath):
+async def process_single_url(i, url, graph):
+        problem_in_run = False        
+        try:
+            config = {
+                "configurable": {"thread_id": str(i)}
+            }
+            prompt_params = {"bibtex_example": bibtex_example, "url": url}
+            # get the prompts
+            prompt = prompt_template.invoke(prompt_params)
+            print(i, url, config)
+            result = await graph.ainvoke(prompt, config=config)
+            status = 'success'
+            print(status)
+        except Exception as e:
+            status = 'error'
+            result = str(e)
+            print('error', e)
 
-
-    # Process with abatch_as_completed
-    config = {"max_concurrency": 30, "configurable": {"thread_id": "1"}}
-    async for i, result in graph.abatch_as_completed(prompts, config=config, return_exceptions=True):
-        url = all_citations[i]
-
-
-        res_dict = dict()
-        
+        res_dict = dict()        
         res_dict['url'] = url
         # add to the result 
-        if isinstance(result, Exception):
+        if status == 'error':
             res_dict['status'] = 'error'
             res_dict['error'] = str(result)
+            problem_in_run = True
+
         else:
             res_dict['status'] = 'success'
             res_dict['content'] = result["messages"][-1].content
+            if res_dict['content'] == "Problem: I cannot access this URL.":
+                # there's a problem
+                print('problematic', i, url)
+                problem_in_run = True
+
         #result.content if hasattr(result, 'content') else str(result)
         
         # Save to individual file
-        fprefix = pathvalidate.sanitize_filename(url)
-        fpath = os.path.join(out_dpath, f'{fprefix}_bibtex.json')
+        fpath = os.path.join(out_dpath, url2fname(url))
         
         async with aiofiles.open(fpath, 'w') as f:
             await f.write(json.dumps(res_dict, indent=2))
         
+        return problem_in_run
 
+
+# Define the main async function
+async def run_agent(graph, all_citations, prompts, out_dpath):
+
+    problematic_urls = list()
+    # Process with abatch_as_completed
+    for i, url in enumerate(all_citations):
+        problem_in_run = await process_single_url(i, url, graph)
+
+        if problem_in_run:
+            # try rerunning
+            problematic_urls.append(url)
+    # write file with list of problematic urls
+    fpath = os.path.join(out_dpath, f'problematic_urls.json')
+
+    problematic_urls_dict = dict(gene_name_or_id='problematic_urls', citations=problematic_urls)    
+    async with aiofiles.open(fpath, 'w') as f:
+        await f.write(json.dumps(problematic_urls_dict, indent=2))
+        
+
+async def test_tool(tools):
+    # Test the tool directly
+    navigate_tool = next(tool for tool in tools if tool.name == "navigate_browser")
+    print('navigate_tool.ainvoke')
+    result = await navigate_tool.ainvoke({"url": "https://journals.asm.org/doi/10.1128/mmbr.00001-08"})
+    print(result)
 
 
 
@@ -151,12 +205,17 @@ if __name__ == "__main__":
 
     in_dpath = args.indpath
 
+    import nest_asyncio
+    nest_asyncio.apply()
+
     # build the graph
     # If you get a NotImplementedError here or later, see the Heads Up at the top of the notebook
-    async_browser =  create_async_playwright_browser(headless=False)  # headful mode
+    async_browser =  create_async_playwright_browser(headless=True)  # headful mode
     toolkit = PlayWrightBrowserToolkit.from_browser(async_browser=async_browser)
     tools = toolkit.get_tools()
 
+    # debug tools
+    #asyncio.run(test_tool(tools))
 
     # # Initialize the models and create templates
     rate_limiter = InMemoryRateLimiter(
@@ -175,8 +234,8 @@ if __name__ == "__main__":
 
 
     def chatbot(state: State):
-        return {"messages": [llm_with_tools.invoke(state["messages"])]}
-
+        result = llm_with_tools.invoke(state["messages"])
+        return {"messages": [result]}
 
 
     graph_builder = StateGraph(State)

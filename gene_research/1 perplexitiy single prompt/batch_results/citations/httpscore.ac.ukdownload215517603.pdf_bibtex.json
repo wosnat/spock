@@ -1,0 +1,5 @@
+{
+  "url": "https://core.ac.uk/download/215517603.pdf",
+  "status": "success",
+  "content": "@article{pearce2016integration,\n    author = {Pearce, Samuel and Pontika, Nancy},\n    title = {Integration of the IRUS-UK Statistics in the CORE Repositories Dashboard},\n    journal = {Open Repositories},\n    year = {2016},\n    doi = {10.6084/m9.figshare.3407548.v3},\n    abstract = {Institutional Repository Usage Statistics UK (IRUS-UK) is a Jisc-funded project that serves as a national repository usage statistics aggregation service, which aims to provide article download statistics from UK repositories. At CORE, a full-text aggregation service, we wanted to present the information regarding the manuscripts\u2019 downloads to repository managers and therefore, we have integrated into the CORE Repositories Dashboard, a content management tool designed for repository managers, the IRUS-CORE statistics. Currently, there are 93 repositories participating in IRUS-UK project that are also harvested in CORE.},\n    url = {https://doi.org/10.6084/m9.figshare.3407548.v3}\n}"
+}

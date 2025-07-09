@@ -297,3 +297,127 @@ In addition, assign citations for each entry based on urls in the `urls for the 
 
 '''
 
+
+second_prompt_for_single_prompt_perplexity_prochlorococcus = '''
+I have the following information about the gene {gene_name_or_id} in Prochlorococcus MED4:
+
+# Information about the gene:
+    gene_name_or_id: {gene_name_or_id}
+    locus_tag: str = {locus_tag}
+    old_locus_tag: {old_locus_tag}
+    protein_id: str = {protein_id}
+    product: str = {product}
+
+
+# REVIEW text to be reformatted:
+{review_text}
+
+
+# Corresponding list of citations (urls) numbered as in the review 
+{citations_url}
+
+
+# bibtex entries for some of the urls in the review. You can use these to format the citation and to get some context.
+{cytations_bibtex}
+
+
+# TASK AND INSTRUCTIONS
+Your primary goal is to populate a JSON object that strictly adheres to the `GeneResearchSummarySimple` schema based on the review above and published literature.
+Your task is to reformat the review above to fit the required schema. 
+
+
+1.  **Gene Function:** First, determine and concisely state the primary function of the gene `{gene_name_or_id}`.
+2.  **Identify Findings:** Scour the literature for specific experimental findings related to the **Key Biological Processes of Interest** mentioned above.
+3.  **Populate ResearchFindingSimple:** For each distinct finding, create a `ResearchFindingSimple` object.
+    - **finding_category/finding_type:** Use one of the key process terms (e.g., 'nutrient uptake', 'stress response', 'coculture role').
+    - **finding_description:** Be specific. Instead of "involved in N metabolism," write "Shown to be upregulated under nitrogen starvation, facilitating the uptake of ammonium."
+    - **finding_evidence:** Extract the experimental method, e.g., 'gene expression analysis (RNA-seq)', 'proteomic analysis (mass spectrometry)', 'knockout mutant phenotype'. If experimental method is not available, write "Experimental method is unknown".
+    - **organism:** Names of the organisms used in the study
+    - **Phylogenetic Distance:** This is crucial. Assess the organism used in the study:
+        - 'Direct': The study was done in Prochlorococcus.
+        - 'Close': The study was in another cyanobacterium (e.g., Synechococcus, Synechocystis).
+        - 'Relevant': The study was in another marine bacterium (e.g., Alteromonas itself, Vibrio).
+        - 'Distant': The study was in a model organism like E. coli or yeast, but the function is highly conserved.
+    - **Confidence Score (1-10):** Assign a score based on the evidence's relevance and directness.
+        - **10:** Direct experimental evidence (e.g., knockout) in the exact Prochlorococcus strain of interest showing the effect.
+        - **8-9:** Direct evidence (transcriptome/proteome) in Prochlorococcus or a very close relative under nitrogen limitation.
+        - **6-7:** Strong evidence in a related cyanobacterium or clear homology-based inference.
+        - **3-5:** Inferred function based on studies in distant organisms (e.g., E. coli) or purely correlational data.
+        - **1-2:** Highly speculative connection.
+    - **url:** Assign a list of urls based on the numbered references in the text and the corresponding numbered reference list. Leave the list empty if there are no references in the text.
+
+4.  **Final Output:** Your final output must be **only the JSON object** that can be parsed directly. Do not include any explanatory text before or after the JSON.
+
+
+Ensure that the JSON object strictly adheres to the `GeneResearchSummarySimple` schema. The schema requires the following fields:
+
+{json_schema}
+
+'''
+
+
+# SYSTEM PROMPT - Reusable schema and instructions
+system_second_prompt_for_single_prompt_perplexity_prochlorococcus = '''
+You are a scientific literature analyst specialized in reformatting gene research summaries. Your task is to convert research reviews into structured JSON format following the `GeneResearchSummarySimple` schema.
+
+## Required JSON Schema:
+{json_schema}
+
+## Processing Instructions:
+
+### For each ResearchFindingSimple object:
+- **finding_category/finding_type**: Use specific biological process terms (e.g., 'nutrient uptake', 'stress response', 'coculture role')
+- **finding_description**: Be specific and quantitative. Instead of "involved in N metabolism," write "Shown to be upregulated under nitrogen starvation, facilitating the uptake of ammonium"
+- **finding_evidence**: Extract experimental methods (e.g., 'gene expression analysis (RNA-seq)', 'proteomic analysis (mass spectrometry)', 'knockout mutant phenotype'). If unavailable, write "Experimental method is unknown"
+- **organism**: Names of the organisms used in the study
+- **phylogenetic_distance**: Assess organism relatedness to Prochlorococcus:
+  - 'Direct': Study conducted in Prochlorococcus
+  - 'Close': Study in another cyanobacterium (e.g., Synechococcus, Synechocystis)
+  - 'Relevant': Study in another marine bacterium (e.g., Alteromonas, Vibrio)
+  - 'Distant': Study in model organisms (E. coli, yeast) with conserved function
+- **confidence_score**: Rate 1-10 based on evidence directness and relevance:
+  - **10**: Direct experimental evidence (e.g., knockout) in exact Prochlorococcus strain
+  - **8-9**: Direct evidence (transcriptome/proteome) in Prochlorococcus or very close relative
+  - **6-7**: Strong evidence in related cyanobacterium or clear homology-based inference
+  - **3-5**: Inferred function from distant organisms or correlational data
+  - **1-2**: Highly speculative connection
+- **url**: Match numbered references in text to provided URL list; leave empty if no references
+
+## Output Requirements:
+- Return **ONLY** the JSON object
+- No explanatory text before or after
+- Must be directly parseable as JSON
+- Ensure strict adherence to the schema structure
+'''
+
+# USER PROMPT - Specific task and data
+second_prompt_for_single_prompt_perplexity_prochlorococcus = '''
+Convert the following research review about gene `{gene_name_or_id}` in Prochlorococcus MED4 into the required JSON format.
+
+## Gene Information:
+- **Gene**: {gene_name_or_id}
+- **Locus tag**: {locus_tag}
+- **Old locus tag**: {old_locus_tag}
+- **Protein ID**: {protein_id}
+- **Product**: {product}
+
+## Research Review to Convert:
+{review_text}
+
+## Reference URLs:
+{citations_url}
+
+
+## BibTeX Entries:
+{cytations_bibtex}
+
+
+
+## Processing Steps:
+1. **Determine Gene Function**: Extract and concisely state the primary function of `{gene_name_or_id}`
+2. **Extract Findings**: Identify specific experimental findings from the review
+3. **Structure Data**: Create ResearchFindingSimple per each gene with a list of ResearchFindingSimple objects for each distinct finding
+4. **Generate JSON**: Output only the complete JSON object following the schema
+
+Convert now:
+'''

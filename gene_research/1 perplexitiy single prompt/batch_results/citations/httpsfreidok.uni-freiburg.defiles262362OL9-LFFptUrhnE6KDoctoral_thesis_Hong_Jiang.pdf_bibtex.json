@@ -1,0 +1,5 @@
+{
+  "url": "https://freidok.uni-freiburg.de/files/262362/OL9-LFFptUrhnE6K/Doctoral_thesis_Hong_Jiang.pdf",
+  "status": "error",
+  "error": "Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT"
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3419514/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1371/journal.pone.0042196,\n    author = {},\n    title = {Intragenic Enhancers and Suppressors of Phytoene Desaturase Mutations in Chlamydomonas reinhardtii},\n    journal = {PLOS ONE},\n    volume = {7},\n    number = {8},\n    pages = {e42196},\n    year = {2012},\n    doi = {10.1371/journal.pone.0042196},\n    url = {https://doi.org/10.1371/journal.pone.0042196},\n}\n```"
+}

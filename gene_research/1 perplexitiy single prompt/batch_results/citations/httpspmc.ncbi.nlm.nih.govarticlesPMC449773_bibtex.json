@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC449773/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1038/sj.emboj.7600263,\n    title = {Interactions between UvrA and UvrB: the role of UvrB's domain 2 in nucleotide excision repair},\n    journal = {The EMBO Journal},\n    volume = {23},\n    number = {13},\n    pages = {2498},\n    year = {2004},\n    doi = {10.1038/sj.emboj.7600263},\n    url = {https://doi.org/10.1038/sj.emboj.7600263},\n}\n```"
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3370486/",
+  "status": "success",
+  "content": "```bibtex\n@article{Wyman2012,\n    author = {Wyman, Michael and Thom, Claire},\n    title = {Temporal Orchestration of Glycogen Synthase (GlgA) Gene Expression and Glycogen Accumulation in the Oceanic Picoplanktonic Cyanobacterium Synechococcus sp. Strain WH8103},\n    journal = {Applied and Environmental Microbiology},\n    volume = {78},\n    number = {13},\n    pages = {4744--4747},\n    year = {2012},\n    month = {07},\n    doi = {10.1128/AEM.00254-12},\n    pmcid = {PMC3370486},\n    pmid = {22522678},\n    abstract = {Glycogen is accumulated during the latter half of the diel cycle in Synechococcus sp. strain WH8103 following a midday maximum in glgA (encoding glycogen synthase) mRNA abundance. This temporal pattern is quite distinct from that of Prochlorococcus and may highlight divergent regulatory control of carbon/nitrogen metabolism in these closely related picocyanobacteria.},\n    url = {https://doi.org/10.1128/AEM.00254-12}\n}\n```"
+}

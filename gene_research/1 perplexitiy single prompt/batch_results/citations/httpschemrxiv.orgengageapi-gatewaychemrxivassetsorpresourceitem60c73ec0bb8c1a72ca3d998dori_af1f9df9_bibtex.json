@@ -1,0 +1,5 @@
+{
+  "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c73ec0bb8c1a72ca3d998d/original/structure-synthesis-of-hierridin-c-and-discovery-of-prevalent-alkylresorcinol-biosynthesis-in-picocyanobacteria.pdf",
+  "status": "error",
+  "error": "Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT"
+}

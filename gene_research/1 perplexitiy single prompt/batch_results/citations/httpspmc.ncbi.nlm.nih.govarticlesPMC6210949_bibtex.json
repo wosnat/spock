@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6210949/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.3390/antiox7100128,\n    author = {Singh, Vineet K. and Singh, Kuldeep and Baum, Kyle},\n    title = {The Role of Methionine Sulfoxide Reductases in Oxidative Stress Tolerance and Virulence of Staphylococcus aureus and Other Bacteria},\n    journal = {Antioxidants},\n    volume = {7},\n    number = {10},\n    pages = {128},\n    year = {2018},\n    month = {09},\n    doi = {10.3390/antiox7100128},\n    pmcid = {PMC6210949},\n    pmid = {30274148},\n    abstract = {Methionine sulfoxide reductases (MSRA1 and MSRB) are proteins overproduced in Staphylococcus aureus during exposure with cell wall-active antibiotics. Later studies identified the presence of two additional MSRA proteins (MSRA2 and MSRA3) in S. aureus. These MSR proteins have been characterized in many other bacteria as well. This review provides the current knowledge about the conditions and regulatory network that mimic the expression of these MSR encoding genes and their role in defense from oxidative stress and virulence.}\n}\n```"
+}

@@ -120,9 +120,7 @@ class ResearchFindingSimple(BaseModel):
     finding_description: str = Field(description="Description of the finding related to the gene")
     finding_evidence: str = Field(description="Evidence supporting this finding, e.g. 'gene knockout experiments', 'gene expression analysis', 'protein interaction studies'")
     finding_type: str = Field(description="Type of finding, e.g. 'gene function', 'stress response', 'nutrient uptake', 'nutrient exudation', 'coculture role'")
-    url: str = Field(description="URL to access the research paper supporting this finding")
-    title: str = Field(description="Title of the research paper supporting this finding")
-    citation: str = Field(description="Citation for the research paper supporting this finding")
+    url: List[str] = Field(description="list of URLs of research papers supporting this finding")
     organism: str = Field(description="Organism where the finding is studied in the cited literature")
     phylogenetic_distance: str = Field(description="Phylogenetic distance between this research and Prochlorococcus")
     additional_notes: str = Field(description="Any additional notes or comments about the finding")
@@ -135,7 +133,11 @@ class ResearchFindingSimple(BaseModel):
 
 class GeneResearchSummarySimple(BaseModel):
     """Research on a specific gene's involvement in coping with stress conditions"""  
-    gene_name: str = Field(description="Name of the gene being studied")
+    gene_name_or_id: str = Field(description="Name of the gene being studied")
+    locus_tag: str = Field(description="locus tag of the gene (in ncbi)")
+    old_locus_tag: str = Field(description="old locus tag of the gene (original annotation)")
+    protein_id: str = Field(description="protein id of the gene (in ncbi)")
+    product: str = Field(description="product of this gene")
     gene_function: str = Field(description="Function of the gene") 
     research_findings: List[ResearchFindingSimple] = Field(description="List of research findings related to this gene, can be empty if none found")
 

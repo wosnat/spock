@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6584798/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.3389/fmicb.2019.01315,\n    author = {},\n    title = {Proteomic De-Regulation in Cyanobacteria in Response to Abiotic Stresses},\n    journal = {Frontiers in Microbiology},\n    year = {2019},\n    volume = {10},\n    pages = {1315},\n    doi = {10.3389/fmicb.2019.01315},\n    url = {https://doi.org/10.3389/fmicb.2019.01315},\n    abstract = {},\n}\n```"
+}

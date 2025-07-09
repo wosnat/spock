@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3187451/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1128/JB.05429-11,\n    author = {Unknown},\n    title = {Role for Escherichia coli YidD in Membrane Protein Insertion},\n    journal = {Journal of Bacteriology},\n    volume = {193},\n    number = {19},\n    pages = {5242},\n    year = {2011},\n    doi = {10.1128/JB.05429-11},\n    url = {https://doi.org/10.1128/JB.05429-11},\n    abstract = {Problem: I cannot find the citation for this URL.}\n}\n```"
+}

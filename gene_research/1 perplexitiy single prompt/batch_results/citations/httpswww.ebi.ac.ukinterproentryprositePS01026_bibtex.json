@@ -1,0 +1,5 @@
+{
+  "url": "https://www.ebi.ac.uk/interpro/entry/prosite/PS01026",
+  "status": "success",
+  "content": "@misc{PS01026,\n    title = {Photosystem I psaG and psaK proteins signature},\n    author = {Golbeck, J.H. and Kjaerulff, S. and Andersen, B. and Nielsen, V.S. and Moller, B.L. and Okkels, J.S.},\n    journal = {PROSITE patterns entry - InterPro},\n    year = {1987},\n    note = {References: 1. Structure, function and organization of the Photosystem I reaction center complex. Biochim. Biophys. Acta 895, 167-204, (1987). PMID: 3333014; 2. The PSI-K subunit of photosystem I from barley (Hordeum vulgare L.). Evidence for a gene duplication of an ancestral PSI-G/K gene. J. Biol. Chem. 268, 18912-6, (1993). PMID: 8360180},\n    url = {https://www.ebi.ac.uk/interpro/entry/prosite/PS01026}\n}"
+}

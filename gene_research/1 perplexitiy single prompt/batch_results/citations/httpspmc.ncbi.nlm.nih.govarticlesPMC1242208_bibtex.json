@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1242208/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1186/gb-2005-6-9-r73,\n    author = {Axmann, Ilka M and Kensche, Philip and Vogel, J\u00f6rg and Kohl, Stefan and Herzel, Hanspeter and Hess, Wolfgang R},\n    title = {Identification of cyanobacterial non-coding RNAs by comparative genome analysis},\n    journal = {Genome Biology},\n    volume = {6},\n    number = {9},\n    pages = {R73},\n    year = {2005},\n    month = {08},\n    doi = {10.1186/gb-2005-6-9-r73},\n    url = {https://doi.org/10.1186/gb-2005-6-9-r73},\n    abstract = {The first genome-wide and systematic screen for non-coding RNAs (ncRNAs) in cyanobacteria. Several ncRNAs were computationally predicted and their presence was biochemically verified. These ncRNAs may have regulatory functions, and each shows a distinct phylogenetic distribution.}\n}\n```"
+}

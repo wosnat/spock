@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4390856/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.3390/life5010348,\n    author = {},\n    title = {Regulation of CO2 Concentrating Mechanism in Cyanobacteria},\n    journal = {Life},\n    volume = {5},\n    number = {1},\n    pages = {348},\n    year = {2015},\n    doi = {10.3390/life5010348},\n    url = {https://doi.org/10.3390/life5010348},\n}\n```"
+}

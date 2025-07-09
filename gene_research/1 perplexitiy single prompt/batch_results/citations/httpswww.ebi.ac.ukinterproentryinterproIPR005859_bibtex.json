@@ -1,0 +1,5 @@
+{
+  "url": "https://www.ebi.ac.uk/interpro/entry/interpro/IPR005859",
+  "status": "success",
+  "content": "@article{Hatzfeld2000,\n    author = {Hatzfeld, Y. and Maruyama, A. and Schmidt, A. and Noji, M. and Ishizawa, K. and Saito, K.},\n    title = {beta-Cyanoalanine synthase is a mitochondrial cysteine synthase-like protein in spinach and Arabidopsis},\n    journal = {Plant Physiology},\n    volume = {123},\n    pages = {1163-71},\n    year = {2000},\n    pmid = {10889265},\n    url = {https://doi.org/10.1104/pp.123.3.1163},\n    abstract = {Cysteine synthase (O-acetylserine (thiol)-lyase, 2.5.1.47) is the enzyme responsible for the formation of cysteine from O-acetyl-serine and hydrogen sulphide with the concomitant release of acetic acid. In bacteria such two forms of the enzyme are known (genes cysK and cysM). CysK differs from CysM in that it can also use sulphide instead of thiosulphate, to produce cysteine instead of cysteine thiosulphonate. This entry represents CysK-type cysteine synthases. It includes beta-cyanoalanine synthase, a mitochondrial cysteine synthase-like protein from plants.}\n}"
+}

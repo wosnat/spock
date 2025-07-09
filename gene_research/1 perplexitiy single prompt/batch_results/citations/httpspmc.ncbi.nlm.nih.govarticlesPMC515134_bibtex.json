@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC515134/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1128/JB.186.18.6265-6276.2004,\n    author = {},\n    title = {A Novel Mutation within the Central Listeria monocytogenes Regulator PrfA That Results in Constitutive Expression of Virulence Gene Products},\n    journal = {Journal of Bacteriology},\n    volume = {186},\n    number = {18},\n    pages = {6265--6276},\n    year = {2004},\n    doi = {10.1128/JB.186.18.6265-6276.2004},\n    url = {https://doi.org/10.1128/JB.186.18.6265-6276.2004},\n}\n```"
+}

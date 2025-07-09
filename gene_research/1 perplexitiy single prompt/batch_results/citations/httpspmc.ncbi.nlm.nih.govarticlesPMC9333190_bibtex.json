@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9333190/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1093/femsle/fnac021,\n    author = {},\n    title = {Two types of C-terminal regions of RNA-binding proteins play distinct roles in stress tolerance of Synechocystis sp. PCC 6803},\n    journal = {FEMS Microbiology Letters},\n    volume = {369},\n    number = {1},\n    year = {2022},\n    doi = {10.1093/femsle/fnac021},\n    url = {https://doi.org/10.1093/femsle/fnac021},\n    abstract = {},\n}\n```"
+}

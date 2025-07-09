@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC94411/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1128/jb.182.5.1264-1271.2000,\n    author = {},\n    title = {FabF Is Required for Piezoregulation of cis-Vaccenic Acid Levels and Piezophilic Growth of the Deep-Sea Bacterium Photobacterium profundum Strain SS9},\n    journal = {Journal of Bacteriology},\n    volume = {182},\n    number = {5},\n    pages = {1264--1271},\n    year = {2000},\n    doi = {10.1128/jb.182.5.1264-1271.2000},\n    url = {https://doi.org/10.1128/jb.182.5.1264-1271.2000},\n}\n```"
+}

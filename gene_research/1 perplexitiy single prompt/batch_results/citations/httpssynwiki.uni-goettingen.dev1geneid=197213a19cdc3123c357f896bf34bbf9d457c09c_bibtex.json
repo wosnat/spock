@@ -1,0 +1,5 @@
+{
+  "url": "https://synwiki.uni-goettingen.de/v1/gene?id=197213a19cdc3123c357f896bf34bbf9d457c09c",
+  "status": "success",
+  "content": "@article{Hutchison2016,\n    author = {Hutchison, CA 3rd and Chuang, RY and Noskov, VN and Assad-Garcia, N and Deerinck, TJ and Ellisman, MH and Gill, J and Kannan, K and Karas, BJ and Ma, L and Pelletier, JF and Qi, ZQ and Richter, RA and Strychalski, EA and Sun, L and Suzuki, Y and Tsvetanova, B and Wise, KS and Smith, HO and Glass, JI and Merryman, C and Gibson, DG and Venter, JC},\n    title = {Design and synthesis of a minimal bacterial genome},\n    journal = {Science},\n    volume = {351},\n    number = {6280},\n    pages = {aad6253},\n    year = {2016},\n    month = {03},\n    doi = {10.1126/science.aad6253},\n    pmid = {27013737},\n    url = {https://doi.org/10.1126/science.aad6253},\n    abstract = {The article discusses the design and synthesis of a minimal bacterial genome, detailing the methods and implications of creating a simplified genetic structure for bacterial life.}\n}"
+}

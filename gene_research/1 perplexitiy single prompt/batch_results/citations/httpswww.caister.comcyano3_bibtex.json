@@ -1,0 +1,5 @@
+{
+  "url": "https://www.caister.com/cyano3",
+  "status": "success",
+  "content": "@book{Los2017,\n    editor = {Dmitry A. Los},\n    title = {Cyanobacteria: Omics and Manipulation},\n    publisher = {Caister Academic Press},\n    year = {2017},\n    pages = {vi + 256},\n    isbn = {978-1-910190-55-5},\n    doi = {10.21775/9781910190555},\n    url = {https://doi.org/10.21775/9781910190555},\n    abstract = {In this era of the 'Green Planet', cyanobacteria are ideally placed for exploitation as microbial cell factories, both for carbon capture and storage and for the sustainable production of secondary metabolites and biofuels. The application of omics technologies to cyanobacterial research has yielded a wealth of new information. However for today's busy researchers, trawling through the literature to stay abreast of current developments can be extremely time-consuming. By compiling and summarising the most important topics on cyanobacterial omics and manipulation, the authors of this book provide the reader with a timely overview of the field.}\n}"
+}

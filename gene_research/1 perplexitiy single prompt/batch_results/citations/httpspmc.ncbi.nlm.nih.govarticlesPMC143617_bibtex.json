@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC143617/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1128/AEM.69.2.1299-1304.2003,\n    author = {},\n    title = {High Rate of Uptake of Organic Nitrogen Compounds by Prochlorococcus Cyanobacteria as a Key to Their Dominance in Oligotrophic Oceanic Waters},\n    journal = {Applied and Environmental Microbiology},\n    volume = {69},\n    number = {2},\n    pages = {1299--1304},\n    year = {2003},\n    doi = {10.1128/AEM.69.2.1299-1304.2003},\n    url = {https://doi.org/10.1128/AEM.69.2.1299-1304.2003},\n}\n```"
+}

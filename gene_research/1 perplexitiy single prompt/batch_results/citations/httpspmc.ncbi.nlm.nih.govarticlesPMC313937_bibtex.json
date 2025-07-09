@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC313937/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1093/emboj/19.13.3349,\n    author = {},\n    title = {Circadian clock-protein expression in cyanobacteria: rhythms and phase setting},\n    journal = {The EMBO Journal},\n    volume = {19},\n    number = {13},\n    pages = {3349},\n    year = {2000},\n    doi = {10.1093/emboj/19.13.3349},\n    url = {https://doi.org/10.1093/emboj/19.13.3349},\n}\n```"
+}

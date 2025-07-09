@@ -1,0 +1,5 @@
+{
+  "url": "https://www.uniprot.org/uniprotkb/Q2JQ59/publications",
+  "status": "success",
+  "content": "@article{bhaya2007population,\n    author = {Bhaya, D. and Grossman, A.R. and Steunou, A.-S. and Khuri, N. and Cohan, F.M. and Hamamura, N. and Melendrez, M.C. and Bateson, M.M. and Ward, D.M. and Heidelberg, J.F.},\n    title = {Population level functional diversity in a microbial community revealed by comparative genomic and metagenomic analyses},\n    journal = {ISME Journal},\n    volume = {1},\n    pages = {703--713},\n    year = {2007},\n    doi = {10.1038/ismej.2007.53},\n    url = {https://doi.org/10.1038/ismej.2007.53},\n    abstract = {This study reveals the functional diversity within a microbial community through comparative genomic and metagenomic analyses.}\n}"
+}

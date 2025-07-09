@@ -1,0 +1,5 @@
+{
+  "url": "https://alphafold.ebi.ac.uk/entry/A0A6P0X700",
+  "status": "success",
+  "content": "@article{jumper2021highly,\n    author = {Jumper, John and Evans, Richard and Pritzel, Alexander and Green, Tim and Figurnov, Mikhail and Ronneberger, Olaf and Bodenstein, Simon and Zidek, Adam and Potapenko, Alexey and Berry, Paul and et al.},\n    title = {Highly accurate protein structure prediction with AlphaFold},\n    journal = {Nature},\n    year = {2021},\n    volume = {596},\n    pages = {583--589},\n    doi = {10.1038/s41586-020-2649-2},\n    url = {https://doi.org/10.1038/s41586-020-2649-2},\n}\n\n@article{varadi2024alphafold,\n    author = {Varadi, M. and Anyango, S. and Deshpande, M. and Nair, S. and et al.},\n    title = {AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences},\n    journal = {Nucleic Acids Research},\n    year = {2024},\n    volume = {52},\n    pages = {D503--D508},\n    doi = {10.1093/nar/gkac1001},\n    url = {https://doi.org/10.1093/nar/gkac1001},\n}"
+}

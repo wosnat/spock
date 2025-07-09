@@ -1,0 +1,5 @@
+{
+  "url": "https://card.mcmaster.ca/ontology/40183",
+  "status": "success",
+  "content": "```bibtex\n@article{alcock2023card,\n    author = {Alcock, Brian and Raphenya, Amogelang and Wang, Spring and Dave, Biren},\n    title = {CARD 2023: Expanded Curation, Support for Machine Learning, and Resistome Prediction at the Comprehensive Antibiotic Resistance Database},\n    journal = {Nucleic Acids Research},\n    volume = {51},\n    pages = {D690--D699},\n    year = {2023},\n    month = {01},\n    doi = {10.1093/nar/gkac1001},\n    url = {https://doi.org/10.1093/nar/gkac1001},\n    abstract = {The Comprehensive Antibiotic Resistance Database (CARD) has undergone significant updates to enhance its curation processes, support for machine learning applications, and capabilities for resistome prediction. This paper outlines the improvements made in the 2023 version of CARD, including expanded data sets and refined methodologies for antibiotic resistance research.}\n}\n```"
+}

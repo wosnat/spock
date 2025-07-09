@@ -1,0 +1,5 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2398784/",
+  "status": "success",
+  "content": "```bibtex\n@article{10.1371/journal.pgen.1000095,\n    author = {},\n    title = {Trends in Selenium Utilization in Marine Microbial World Revealed through the Analysis of the Global Ocean Sampling (GOS) Project},\n    journal = {PLoS Genetics},\n    volume = {4},\n    number = {6},\n    pages = {e1000095},\n    year = {2008},\n    doi = {10.1371/journal.pgen.1000095},\n    url = {https://doi.org/10.1371/journal.pgen.1000095},\n}\n```"
+}
