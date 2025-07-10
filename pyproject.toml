@@ -18,4 +18,5 @@ dependencies = [
     "gffpandas>=1.2.0",
     "pathvalidate>=3.3.1",
     "langchain-perplexity>=0.1.1",
+    "jsonlines>=4.0.0",
 ]
