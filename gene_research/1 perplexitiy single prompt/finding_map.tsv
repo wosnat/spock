@@ -1,0 +1,31 @@
+finding_category	finding_type	final_category
+bacterial interaction	bacterial interaction	bacterial interaction
+bacterial interaction	coculture role	bacterial interaction
+coculture role	bacterial interaction	bacterial interaction
+coculture role	coculture role	bacterial interaction
+gene function	gene function	physiological
+nutrient exchange	coculture role	nutrient exchange
+nutrient exchange	nutrient exchange	nutrient exchange
+nutrient exchange	nutrient exudation	nutrient exudation
+nutrient exchange	nutrient release	nutrient exudation
+nutrient exchange	nutrient uptake	nutrient uptake
+nutrient exudation	coculture role	nutrient exudation
+nutrient exudation	nutrient exchange	nutrient exudation
+nutrient exudation	nutrient exudation	nutrient exudation
+nutrient exudation	nutrient release	nutrient exudation
+nutrient release	nutrient exudation	nutrient exudation
+nutrient release	nutrient release	nutrient exudation
+nutrient uptake	nutrient exchange	nutrient uptake
+nutrient uptake	nutrient uptake	nutrient uptake
+oxidative stress	oxidative stress	oxidative stress
+oxidative stress	stress response	oxidative stress
+physiological	bacterial interaction	bacterial interaction
+physiological	coculture role	bacterial interaction
+physiological	gene function	physiological
+physiological	nutrient release	nutrient exudation
+physiological	nutrient uptake	nutrient uptake
+physiological	physiological	physiological
+physiological	physiological impact	physiological
+physiological	stress response	stress response
+stress response	oxidative stress	oxidative stress
+stress response	stress response	stress response

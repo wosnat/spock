@@ -19,4 +19,6 @@ dependencies = [
     "pathvalidate>=3.3.1",
     "langchain-perplexity>=0.1.1",
     "jsonlines>=4.0.0",
+    "seaborn>=0.13.2",
+    "bibtexparser>=1.4.3",
 ]
